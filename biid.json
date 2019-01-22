@@ -1,0 +1,3689 @@
+{
+    "id": "bitcoin",
+    "symbol": "btc",
+    "name": "Bitcoin",
+    "categories": [
+        "Cryptocurrency"
+    ],
+    "localization": {
+        "en": "Bitcoin",
+        "es": "Bitcoin",
+        "de": "Bitcoin",
+        "nl": "Bitcoin",
+        "pt": "Bitcoin",
+        "fr": "Bitcoin",
+        "it": "Bitcoin",
+        "hu": "Bitcoin",
+        "ro": "Bitcoin",
+        "sv": "Bitcoin",
+        "pl": "Bitcoin",
+        "id": "Bitcoin",
+        "zh": "比特币",
+        "zh-tw": "比特幣",
+        "ja": "ビットコイン",
+        "ko": "비트코인",
+        "ru": "биткоина",
+        "ar": "بيتكوين",
+        "th": "บิตคอยน์",
+        "vi": "Bitcoin",
+        "tr": "Bitcoin"
+    },
+    "description": {
+        "en": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>.",
+        "es": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>.",
+        "de": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>.",
+        "nl": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>.",
+        "pt": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>.",
+        "fr": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>.",
+        "it": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>.",
+        "hu": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>.",
+        "ro": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>.",
+        "sv": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>.",
+        "pl": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>.",
+        "id": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>.",
+        "zh": "",
+        "zh-tw": "",
+        "ja": "",
+        "ko": "비트코인은 2009년 나카모토 사토시가 만든 디지털 통화로, 통화를 발행하고 관리하는 중앙 장치가 존재하지 않는 구조를 가지고 있다. 대신, 비트코인의 거래는 P2P 기반 분산 데이터베이스에 의해 이루어지며, 공개 키 암호 방식 기반으로 거래를 수행한다. 비트코인은 공개성을 가지고 있다. 비트코인은 지갑 파일의 형태로 저장되며, 이 지갑에는 각각의 고유 주소가 부여되며, 그 주소를 기반으로 비트코인의 거래가 이루어진다. 비트코인은 1998년 웨이따이가 사이버펑크 메일링 리스트에 올린 암호통화란 구상을 최초로 구현한 것 중의 하나이다.\r\n\r\n비트코인은 최초로 구현된 가상화폐입니다. 발행 및 유통을 관리하는 중앙권력이나 중간상인 없이, P2P 네트워크 기술을 이용하여 네트워크에 참여하는 사용자들이 주체적으로 화폐를 발행하고 이체내용을 공동으로 관리합니다. 이를 가능하게 한 블록체인 기술을 처음으로 코인에 도입한 것이 바로 비트코인입니다.\r\n\r\n비트코인을 사용하는 개인과 사업자의 수는 꾸준히 증가하고 있으며, 여기에는 식당, 아파트, 법률사무소, 온라인 서비스를 비롯한 소매상들이 포함됩니다. 비트코인은 새로운 사회 현상이지만 아주 빠르게 성장하고 있습니다. 이를 바탕으로 가치 증대는 물론, 매일 수백만 달러의 비트코인이 교환되고 있습니다. \r\n\r\n비트코인은 가상화폐 시장에서 현재 유통시가총액과 코인의 가치가 가장 크고, 거래량 또한 안정적입니다. 이더리움이 빠르게 추격하고 있지만 아직은 가장 견고한 가상화폐라고 볼 수 있습니다. \r\n\r\n코인 특징\r\n1. 중앙주체 없이 사용자들에 의해 거래내용이 관리될 수 있는 비트코인의 운영 시스템은 블록체인 기술에서 기인합니다. 블록체인은 쉽게 말해 다 같이 장부를 공유하고, 항상 서로의 컴퓨터에 있는 장부 파일을 비교함으로써 같은 내용만 인정하는 방식으로 운영됩니다. 따라서 전통적인 금융기관에서 장부에 대한 접근을 튼튼하게 방어하던 것과는 정반대의 작업을 통해 보안을 달성합니다. 장부를 해킹하려면 51%의 장부를 동시에 조작해야 하는데, 이는 사실상 불가능합니다. 왜냐하면, 이를 실행하기 위해서는 컴퓨팅 파워가 어마어마하게 소요되고, 이것이 가능한 슈퍼컴퓨터는 세상에 존재하지 않기 때문입니다. 또한, 장부의 자료들은 줄글로 기록되는 것이 아니라 암호화 해시 함수형태로 블록에 저장되고, 이 블록들은 서로 연결되어 있어서 더 강력한 보안을 제공합니다. \r\n\r\n2. 비트코인은 블록발행보상을 채굴자에게 지급하는 방식으로 신규 코인을 발행합니다. 블록발행보상은 매 21만 블록(약 4년)을 기준으로 발행량이 절반으로 줄어듭니다. 처음에는 50비트코인씩 발행이 되었고, 4년마다 계속 반으로 감소하고 있습니다. 코인의 총량이 2,100만 개에 도달하면 신규 발행은 종료되고, 이후에는 거래 수수료만을 통해 시스템이 지탱될 것입니다. \r\n\r\n핵심 가치\r\n(키워드: 통화로 사용될 수 있는 보편성 및 편의성)\r\n\r\n1. 다양한 알트코인들의 등장에 앞서 비트코인은 가상화폐 시장에서 독보적이었기 때문에, 현재 가장 보편적인 결제수단으로 사용됩니다. 실생활에서 이를 활용할 수 있는 가맹점이 알트코인들보다 압도적으로 많을 뿐만 아니라, 이 또한 증가하고 있습니다. 일례로 일본 업체들이 비트코인 결제 시스템을 도입하면서 곧 비트코인을 오프라인 점포 26만 곳에서 이용할 수 있게 될 것입니다. \r\n\r\n2. 여러 나라에서 비트코인을 정식 결제 수단으로 인정하면서, 실물화폐와 가상화폐를 거래할 때 더는 부가가치세가 부과되지 않게 된다고 합니다. 실제로 일본과 호주에서는 이미 비트코인을 합법적 결제 수단으로 인정하면서 제도권 안으로 들여오고 있고, 미국에서는 비트코인 ETF 승인 노력도 진행되고 있습니다. 각국에 비트코인을 기반으로 한 ATM 기계도 설치되었다고 합니다. ",
+        "ru": "",
+        "ar": "",
+        "th": "",
+        "vi": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>.",
+        "tr": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the <a href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\">SHA-256</a> hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as <a href=\"https://www.coingecko.com/en/coins/litecoin\">Litecoin</a>, <a href=\"https://www.coingecko.com/en/coins/peercoin\">Peercoin</a>, <a href=\"https://www.coingecko.com/en/coins/primecoin\">Primecoin</a>, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by <a href=\"https://www.coingecko.com/en/coins/ethereum\">Ethereum</a> which led to the development of other amazing projects such as <a href=\"https://www.coingecko.com/en/coins/eos\">EOS</a>, <a href=\"https://www.coingecko.com/en/coins/tron\">Tron</a>, and even crypto-collectibles such as <a href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\">CryptoKitties</a>."
+    },
+    "links": {
+        "homepage": [
+            "http://www.bitcoin.org",
+            "",
+            ""
+        ],
+        "blockchain_site": [
+            "https://blockchair.com/bitcoin/blocks",
+            "https://blockchain.info/",
+            "https://live.blockcypher.com/btc/",
+            "https://bitcoinblockexplorers.com/",
+            "https://btc.tokenview.com/"
+        ],
+        "official_forum_url": [
+            "https://bitcointalk.org/",
+            "",
+            ""
+        ],
+        "chat_url": [
+            "",
+            "",
+            ""
+        ],
+        "announcement_url": [
+            "",
+            ""
+        ],
+        "twitter_screen_name": "btc",
+        "facebook_username": "bitcoins",
+        "bitcointalk_thread_identifier": null,
+        "telegram_channel_identifier": "",
+        "subreddit_url": "https://www.reddit.com/r/Bitcoin/",
+        "repos_url": {
+            "github": [
+                "https://github.com/bitcoin/bitcoin",
+                "https://github.com/bitcoin/bips"
+            ],
+            "bitbucket": []
+        }
+    },
+    "image": {
+        "thumb": "https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579",
+        "small": "https://assets.coingecko.com/coins/images/1/small/bitcoin.png?1547033579",
+        "large": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579"
+    },
+    "country_origin": "",
+    "genesis_date": "2009-01-03",
+    "market_cap_rank": 1,
+    "coingecko_rank": 1,
+    "coingecko_score": 90.295,
+    "developer_score": 98.272,
+    "community_score": 84.516,
+    "liquidity_score": 100.042,
+    "public_interest_score": 45.9,
+    "market_data": {
+        "current_price": {
+            "aed": 12982.52642563777,
+            "ars": 133639.56382214557,
+            "aud": 4937.04013977318,
+            "bch": 29.058509789367847,
+            "bdt": 296830.3268486745,
+            "bhd": 1332.875366195668,
+            "bmd": 3534.409664440119,
+            "bnb": 546.8433267356332,
+            "brl": 13272.768612871994,
+            "btc": 1.0,
+            "cad": 4699.775218999312,
+            "chf": 3524.891499213778,
+            "clp": 2375834.361177687,
+            "cny": 24027.977221763223,
+            "czk": 79531.31101009916,
+            "dkk": 23212.882268179106,
+            "eos": 1519.190798979054,
+            "eth": 30.388631850136967,
+            "eur": 3108.930360215489,
+            "gbp": 2741.2704636914314,
+            "hkd": 27729.034301881697,
+            "huf": 987054.5869881914,
+            "idr": 50285636.78033857,
+            "ils": 13061.410914938433,
+            "inr": 251631.67753812295,
+            "jpy": 387662.8880199533,
+            "krw": 3999962.105440172,
+            "kwd": 1072.4247180230807,
+            "lkr": 642868.6454365905,
+            "ltc": 114.89532786575018,
+            "mmk": 5440511.24038068,
+            "mxn": 67715.25994365526,
+            "myr": 14576.693629506231,
+            "nok": 30249.492521787244,
+            "nzd": 5252.804299194256,
+            "php": 186539.07326982106,
+            "pkr": 494533.3667394889,
+            "pln": 13318.48620188148,
+            "rub": 234724.74054803248,
+            "sar": 13257.570651314916,
+            "sek": 31856.885486620013,
+            "sgd": 4803.619709350225,
+            "thb": 112413.66658235033,
+            "try": 18809.668760893885,
+            "twd": 109213.25863119987,
+            "usd": 3534.409664440119,
+            "vef": 878257124.2305291,
+            "xag": 231.52924542631519,
+            "xau": 2.7604446361210173,
+            "xdr": 2532.0086706889265,
+            "xlm": 34507.210465982454,
+            "xrp": 11122.914809490605,
+            "zar": 48866.07294830318
+        },
+        "roi": null,
+        "ath": {
+            "aed": 72228.93070129103,
+            "ars": 504219.5627855566,
+            "aud": 25716.7319272777,
+            "bch": 42.24254696027126,
+            "bdt": 1631247.8719972232,
+            "bhd": 7416.371058120771,
+            "bmd": 19665.3949272416,
+            "bnb": 143061.5164520744,
+            "brl": 64776.8276205875,
+            "btc": 1.0374684435214228,
+            "cad": 25303.2080027477,
+            "chf": 19484.5716208856,
+            "clp": 12582804.617220901,
+            "cny": 130005.959324501,
+            "czk": 429834.4030826905,
+            "dkk": 124583.718308188,
+            "eos": 2538.196863926068,
+            "eth": 624.2026756165253,
+            "eur": 16727.6799060356,
+            "gbp": 14759.8621626412,
+            "hkd": 153608.366316177,
+            "huf": 5263108.6405624505,
+            "idr": 266681921.952904,
+            "ils": 69096.33161635608,
+            "inr": 1259942.18759344,
+            "jpy": 2214028.4878835,
+            "krw": 21418073.250132,
+            "kwd": 5939.637556849417,
+            "lkr": 3024387.1815461954,
+            "ltc": 318.97984033806006,
+            "mmk": 26871485.097329073,
+            "mxn": 376058.889019275,
+            "myr": 80224.3689784394,
+            "nok": 164805.33088748012,
+            "nzd": 28131.3474434191,
+            "php": 991988.064891359,
+            "pkr": 2169802.5092621436,
+            "pln": 70407.0301882567,
+            "rub": 1157050.87479462,
+            "sar": 73750.14732588781,
+            "sek": 167278.37229195,
+            "sgd": 26516.8185198926,
+            "thb": 639577.6392186786,
+            "try": 76695.99310114534,
+            "twd": 589706.197683194,
+            "usd": 19665.3949272416,
+            "vef": 3407334886.1722574,
+            "xag": 1225.44947819896,
+            "xau": 15.6656502529899,
+            "xdr": 13907.0526462264,
+            "xlm": 59028.15378690152,
+            "xrp": 29968.723337354273,
+            "zar": 257659.740761756
+        },
+        "ath_change_percentage": {
+            "aed": -82.02651627691068,
+            "ars": -73.500927712267,
+            "aud": -80.80601491586977,
+            "bch": -31.20590292491265,
+            "bdt": -81.8041417432267,
+            "bhd": -82.0285828941707,
+            "bmd": -82.0279157223354,
+            "bnb": -99.61774335509863,
+            "brl": -79.51484114066537,
+            "btc": -3.6115260907833493,
+            "cad": -81.4292173221856,
+            "chf": -81.91064792003819,
+            "clp": -81.11908926319038,
+            "cny": -81.51845882635524,
+            "czk": -81.49739167421906,
+            "dkk": -81.36809887531778,
+            "eos": -40.167963306818436,
+            "eth": -95.13059232708162,
+            "eur": -81.41563751153211,
+            "gbp": -81.42930918731798,
+            "hkd": -81.94865181541252,
+            "huf": -81.24469693240226,
+            "idr": -81.15034817015804,
+            "ils": -81.09749617255544,
+            "inr": -80.02901960480253,
+            "jpy": -82.49308118474264,
+            "krw": -81.2981275513701,
+            "kwd": -81.94526561535551,
+            "lkr": -78.74460947308194,
+            "ltc": -63.973128551895776,
+            "mmk": -79.75432430979005,
+            "mxn": -81.99612626856904,
+            "myr": -81.83075215527256,
+            "nok": -81.64663099737264,
+            "nzd": -81.32697302676081,
+            "php": -81.19632387453407,
+            "pkr": -77.20919710908136,
+            "pln": -81.08243926854077,
+            "rub": -79.71796579409335,
+            "sar": -82.02707708097853,
+            "sek": -80.95606813171845,
+            "sgd": -81.88663413427307,
+            "thb": -82.42385085700774,
+            "try": -75.4779348360172,
+            "twd": -81.48072817621528,
+            "usd": -82.0279157223354,
+            "vef": -74.22544983156928,
+            "xag": -81.10727173845115,
+            "xau": -82.37963713417903,
+            "xdr": -81.79400903936227,
+            "xlm": -41.513068116602845,
+            "xrp": -62.89316624259133,
+            "zar": -81.03611302177144
+        },
+        "ath_date": {
+            "aed": "2017-12-16T00:00:00.000Z",
+            "ars": "2018-10-28T16:56:38.392Z",
+            "aud": "2017-12-16T00:00:00.000Z",
+            "bch": "2018-12-15T16:19:57.060Z",
+            "bdt": "2017-12-16T00:00:00.000Z",
+            "bhd": "2017-12-16T00:00:00.000Z",
+            "bmd": "2017-12-16T00:00:00.000Z",
+            "bnb": "2017-10-19T00:00:00.000Z",
+            "brl": "2017-12-16T00:00:00.000Z",
+            "btc": "2018-08-09T06:12:38.151Z",
+            "cad": "2017-12-16T00:00:00.000Z",
+            "chf": "2017-12-16T00:00:00.000Z",
+            "clp": "2017-12-16T00:00:00.000Z",
+            "cny": "2017-12-16T00:00:00.000Z",
+            "czk": "2017-12-16T00:00:00.000Z",
+            "dkk": "2017-12-16T00:00:00.000Z",
+            "eos": "2018-10-28T16:56:38.392Z",
+            "eth": "2015-10-20T00:00:00.000Z",
+            "eur": "2017-12-16T00:00:00.000Z",
+            "gbp": "2017-12-16T00:00:00.000Z",
+            "hkd": "2017-12-16T00:00:00.000Z",
+            "huf": "2017-12-16T00:00:00.000Z",
+            "idr": "2017-12-16T00:00:00.000Z",
+            "ils": "2017-12-16T00:00:00.000Z",
+            "inr": "2017-12-16T00:00:00.000Z",
+            "jpy": "2017-12-16T00:00:00.000Z",
+            "krw": "2017-12-16T00:00:00.000Z",
+            "kwd": "2017-12-16T00:00:00.000Z",
+            "lkr": "2017-12-16T00:00:00.000Z",
+            "ltc": "2017-03-05T00:00:00.000Z",
+            "mmk": "2017-12-16T00:00:00.000Z",
+            "mxn": "2017-12-16T00:00:00.000Z",
+            "myr": "2017-12-16T00:00:00.000Z",
+            "nok": "2017-12-16T00:00:00.000Z",
+            "nzd": "2017-12-16T00:00:00.000Z",
+            "php": "2017-12-16T00:00:00.000Z",
+            "pkr": "2017-12-16T00:00:00.000Z",
+            "pln": "2017-12-16T00:00:00.000Z",
+            "rub": "2017-12-16T00:00:00.000Z",
+            "sar": "2017-12-16T00:00:00.000Z",
+            "sek": "2017-12-16T00:00:00.000Z",
+            "sgd": "2017-12-16T00:00:00.000Z",
+            "thb": "2017-12-16T00:00:00.000Z",
+            "try": "2018-10-28T16:56:38.392Z",
+            "twd": "2017-12-16T00:00:00.000Z",
+            "usd": "2017-12-16T00:00:00.000Z",
+            "vef": "2018-10-28T16:56:38.392Z",
+            "xag": "2017-12-16T00:00:00.000Z",
+            "xau": "2017-12-16T00:00:00.000Z",
+            "xdr": "2017-12-16T00:00:00.000Z",
+            "xlm": "2018-10-28T16:56:38.392Z",
+            "xrp": "2018-10-28T16:56:38.392Z",
+            "zar": "2017-12-16T00:00:00.000Z"
+        },
+        "market_cap": {
+            "aed": 227108721073.9024,
+            "ars": 2337441362186.8716,
+            "aud": 86351779988.47316,
+            "bch": 508383719.09603244,
+            "bdt": 5192576059265.691,
+            "bhd": 23316541776.47758,
+            "bmd": 61828894648.508606,
+            "bnb": 9566833846.54772,
+            "brl": 232139676402.55737,
+            "btc": 17494050.0,
+            "cad": 82204606879.92448,
+            "chf": 61660101766.11808,
+            "clp": 41561456188138.74,
+            "cny": 420331374488.9561,
+            "czk": 1391311873979.8416,
+            "dkk": 406077402945.5837,
+            "eos": 26567424385.435104,
+            "eth": 531731177.0788382,
+            "eur": 54384324759.46016,
+            "gbp": 47951337415.75611,
+            "hkd": 485081684409.6065,
+            "huf": 17268586269243.123,
+            "idr": 879401642919933.8,
+            "ils": 228488680173.56293,
+            "inr": 4401901971611.106,
+            "jpy": 6780836704996.584,
+            "krw": 70073829747987.484,
+            "kwd": 18760370529.829025,
+            "lkr": 11245967933891.078,
+            "ltc": 2010389233.1000285,
+            "mmk": 95173120337426.75,
+            "mxn": 1184437586113.0828,
+            "myr": 254996149373.95496,
+            "nok": 529148312374.59705,
+            "nzd": 91895791484.92094,
+            "php": 3263169046368.928,
+            "pkr": 8651077360935.074,
+            "pln": 233008372372.36884,
+            "rub": 4105389141545.244,
+            "sar": 231884632212.1321,
+            "sek": 557297091412.3275,
+            "sgd": 84025467827.32314,
+            "thb": 1966560737637.7888,
+            "try": 329018320336.0969,
+            "twd": 1910512844638.9067,
+            "usd": 61828894648.508606,
+            "vef": 15363716253575068,
+            "xag": 4050237149.2298245,
+            "xau": 48289603.29837819,
+            "xdr": 44293478179.455795,
+            "xlm": 603960315355.2297,
+            "xrp": 194541609446.30066,
+            "zar": 854799554765.9248
+        },
+        "market_cap_rank": 1,
+        "total_volume": {
+            "aed": 8916578758.925308,
+            "ars": 91785501300.84161,
+            "aud": 3390827470.632366,
+            "bch": 19957786.540085703,
+            "bdt": 203867175048.22852,
+            "bhd": 915437241.4790787,
+            "bmd": 2427481455.1543584,
+            "bnb": 375579562.2338944,
+            "brl": 9115921108.541174,
+            "btc": 687284.1453675312,
+            "cad": 3227870640.5478516,
+            "chf": 2420944247.5956254,
+            "clp": 1631755908292.8003,
+            "cny": 16502747176.57585,
+            "czk": 54623204696.25353,
+            "dkk": 15942928685.832565,
+            "eos": 1043401258.3391256,
+            "eth": 20871332.773306582,
+            "eur": 2135256382.619967,
+            "gbp": 1882742479.2104428,
+            "hkd": 19044684382.340736,
+            "huf": 677922745980.9573,
+            "idr": 34536871029135.88,
+            "ils": 8970757717.522913,
+            "inr": 172824117390.4599,
+            "jpy": 266252234704.96786,
+            "krw": 2747229312427.291,
+            "kwd": 736556133.0487574,
+            "lkr": 441531079602.4351,
+            "ltc": 78911700.72447431,
+            "mmk": 3736618387918.255,
+            "mxn": 46507777351.89867,
+            "myr": 10011474849.421082,
+            "nok": 20775769957.640423,
+            "nzd": 3607698663.8358536,
+            "php": 128117616240.13705,
+            "pkr": 339652358014.1702,
+            "pln": 9147320581.163563,
+            "rub": 161212199162.69296,
+            "sar": 9105482938.28402,
+            "sek": 21879749683.741364,
+            "sgd": 3299192473.1817408,
+            "thb": 77207261421.91203,
+            "try": 12918740731.74229,
+            "twd": 75009176964.26982,
+            "usd": 2427481455.1543584,
+            "vef": 603199143375058.2,
+            "xag": 159017488.9042731,
+            "xau": 1895911.5661046542,
+            "xdr": 1739018584.6951199,
+            "xlm": 23700029546.10809,
+            "xrp": 7639371773.723734,
+            "zar": 33561894950.006233
+        },
+        "high_24h": {
+            "aed": 13070.96952910827,
+            "ars": 134111.09438275895,
+            "aud": 4965.785810650743,
+            "bch": 29.22095102510102,
+            "bdt": 297830.3541397662,
+            "bhd": 1341.3582070847644,
+            "bmd": 3558.649525732339,
+            "bnb": 563.3781662785723,
+            "brl": 13374.545078160796,
+            "btc": 1.0,
+            "cad": 4720.0859714456055,
+            "chf": 3541.2609259529854,
+            "clp": 2388195.202339454,
+            "cny": 24123.373405034392,
+            "czk": 80056.07010888273,
+            "dkk": 23368.79024229903,
+            "eos": 1525.7855356882246,
+            "eth": 30.66224515711275,
+            "eur": 3130.533311838165,
+            "gbp": 2764.0909413014697,
+            "hkd": 27909.883259899365,
+            "huf": 995260.9823500199,
+            "idr": 50517013.26608884,
+            "ils": 13124.85104157738,
+            "inr": 253560.8960074809,
+            "jpy": 390517.5337490318,
+            "krw": 4015537.259712362,
+            "kwd": 1079.156910028812,
+            "lkr": 646428.68634928,
+            "ltc": 115.87497891477044,
+            "mmk": 5473150.145982781,
+            "mxn": 67986.83166044603,
+            "myr": 14635.01734756475,
+            "nok": 30470.861832443134,
+            "nzd": 5277.979016190787,
+            "php": 187442.6103033313,
+            "pkr": 497820.8973619327,
+            "pln": 13426.962593064434,
+            "rub": 235806.1612816969,
+            "sar": 13347.782641116839,
+            "sek": 32087.499373590897,
+            "sgd": 4833.742119998454,
+            "thb": 112994.23974105345,
+            "try": 18970.267400648198,
+            "twd": 109862.62815840877,
+            "usd": 3558.649525732339,
+            "vef": 884280430.2112832,
+            "xag": 233.31075203803184,
+            "xau": 2.7765180949316823,
+            "xdr": 2548.291986984517,
+            "xlm": 34753.087887264934,
+            "xrp": 11187.380648613058,
+            "zar": 49198.158227627115
+        },
+        "low_24h": {
+            "aed": 12925.800517213449,
+            "ars": 132368.92010858978,
+            "aud": 4909.009538821853,
+            "bch": 28.902763124383362,
+            "bdt": 295168.73388236226,
+            "bhd": 1325.3623907997437,
+            "bmd": 3518.9663992091587,
+            "bnb": 544.6854545658805,
+            "brl": 13210.435633379935,
+            "btc": 1.0,
+            "cad": 4667.216261740206,
+            "chf": 3501.8607035425994,
+            "clp": 2361643.1698703435,
+            "cny": 23889.20719431124,
+            "czk": 79139.09104173451,
+            "dkk": 23097.342736659786,
+            "eos": 1493.5604305265056,
+            "eth": 30.080235647400446,
+            "eur": 3093.705318363553,
+            "gbp": 2734.6789372423214,
+            "hkd": 27603.65217699648,
+            "huf": 983546.396682951,
+            "idr": 50108129.990813635,
+            "ils": 12978.581494235215,
+            "inr": 250890.83597218618,
+            "jpy": 385652.9921071664,
+            "krw": 3968100.878156226,
+            "kwd": 1066.2820086243646,
+            "lkr": 640909.3053245652,
+            "ltc": 114.15223162992093,
+            "mmk": 5425306.750234729,
+            "mxn": 67248.73319304842,
+            "myr": 14471.749316747673,
+            "nok": 30121.221706136203,
+            "nzd": 5234.087607361433,
+            "php": 185111.40560682182,
+            "pkr": 492451.11411159724,
+            "pln": 13262.881851904755,
+            "rub": 233479.0597337363,
+            "sar": 13198.939170153719,
+            "sek": 31720.911966622763,
+            "sgd": 4784.210768044817,
+            "thb": 111795.59506891793,
+            "try": 18747.569451942272,
+            "twd": 108640.66255648018,
+            "usd": 3518.9663992091587,
+            "vef": 874419663.6647857,
+            "xag": 229.85567982294955,
+            "xau": 2.7453216363430295,
+            "xdr": 2520.864364569473,
+            "xlm": 34232.38546900967,
+            "xrp": 11068.855628070738,
+            "zar": 48744.42584638747
+        },
+        "price_change_24h": "-11.21929288108",
+        "price_change_percentage_24h": "-0.316426028107476",
+        "price_change_percentage_7d": "1.10352413094586",
+        "price_change_percentage_14d": "-11.9374119465886",
+        "price_change_percentage_30d": "-8.10710842537338",
+        "price_change_percentage_60d": "-23.3889847970133",
+        "price_change_percentage_200d": "-46.1441486319885",
+        "price_change_percentage_1y": "-69.800417004514",
+        "market_cap_change_24h": "-129860843.082",
+        "market_cap_change_percentage_24h": "-0.209592400705378",
+        "price_change_24h_in_currency": {
+            "aed": -40.618373408460684,
+            "ars": 331.0062847827503,
+            "aud": -10.757427526097672,
+            "bch": -0.05529071044356115,
+            "bdt": 153.68148912873585,
+            "bhd": -3.5750110584556296,
+            "bmd": -11.21929288108413,
+            "bnb": -1.7337855871750207,
+            "brl": -31.307005349575775,
+            "btc": 0.0,
+            "cad": -2.8988359645236415,
+            "chf": -1.0769455390814073,
+            "clp": -3622.9609240195714,
+            "cny": -7.132354125773418,
+            "czk": -251.89994319899415,
+            "dkk": -76.08160430223143,
+            "eos": -1.3750850643218655,
+            "eth": 0.28004629611247367,
+            "eur": -10.9855650870295,
+            "gbp": -13.445679007006675,
+            "hkd": -80.22001762785658,
+            "huf": -4845.750709287706,
+            "idr": 57160.460351891816,
+            "ils": -15.418252150529952,
+            "inr": -1001.4769289275573,
+            "jpy": -1218.1503900796524,
+            "krw": 4791.70605571894,
+            "kwd": -2.7837176556192844,
+            "lkr": -1194.8546608058969,
+            "ltc": -0.9796510490202621,
+            "mmk": -12613.464663084596,
+            "mxn": 23.530142061776132,
+            "myr": -4.705457477199161,
+            "nok": -113.47978045914351,
+            "nzd": 2.0823762972859186,
+            "php": -127.04814371655812,
+            "pkr": 981.815880377253,
+            "pln": -63.781171735921816,
+            "rub": -187.36039032653207,
+            "sar": -41.37444180547209,
+            "sek": -122.24122443670058,
+            "sgd": -11.344414691968268,
+            "thb": -218.55569039389957,
+            "try": -92.26358329123104,
+            "twd": -247.39853921999747,
+            "usd": -11.21929288108413,
+            "vef": -2787855.6356321573,
+            "xag": 0.3700863704120536,
+            "xau": -0.004755931404213598,
+            "xdr": -7.065864454193161,
+            "xlm": 44.9907965425009,
+            "xrp": -47.659418458890286,
+            "zar": -172.606388135413
+        },
+        "price_change_percentage_1h_in_currency": {
+            "aed": 0.13544921788660072,
+            "ars": 0.09838652683536579,
+            "aud": 0.12935622631371763,
+            "bch": -0.04991340878886489,
+            "bdt": 0.13544921788726025,
+            "bhd": 0.13598028265905382,
+            "bmd": 0.13544921788695494,
+            "bnb": -0.3981030846211767,
+            "brl": -0.00019879620787632873,
+            "btc": 0.0,
+            "cad": 0.14365820830951853,
+            "chf": 0.08978539285250108,
+            "clp": 0.13545830484338073,
+            "cny": 0.13544921788711067,
+            "czk": 0.1284853466391812,
+            "dkk": 0.14116705439743577,
+            "eos": 0.16155988522515485,
+            "eth": 0.12878965256451239,
+            "eur": 0.13863683095467796,
+            "gbp": 0.1051180492466426,
+            "hkd": 0.13564067084507095,
+            "huf": 0.10677251863009045,
+            "idr": 0.16607469363420446,
+            "ils": 0.135449217887177,
+            "inr": 0.14082936556380043,
+            "jpy": 0.1663120218573854,
+            "krw": 0.13981496058877063,
+            "kwd": 0.14171995678479704,
+            "lkr": 0.13544921788719072,
+            "ltc": -0.09586757717863086,
+            "mmk": 0.13544921788706038,
+            "mxn": 0.1217574322342329,
+            "myr": 0.13544921788691172,
+            "nok": 0.14105384164889095,
+            "nzd": 0.130733029975549,
+            "php": 0.13450057924461076,
+            "pkr": 0.13544921788714487,
+            "pln": 0.17040565861882614,
+            "rub": 0.1991191479751729,
+            "sar": 0.12429167218793612,
+            "sek": 0.14661568807871653,
+            "sgd": 0.13544921788695247,
+            "thb": 0.11813618243682951,
+            "try": 0.11983450677215625,
+            "twd": 0.12916603170830052,
+            "usd": 0.13544921788695494,
+            "vef": 0.13544921788706515,
+            "xag": 0.13544921788689882,
+            "xau": 0.13544921788694467,
+            "xdr": 0.13461055550943885,
+            "xlm": 0.22418811073605616,
+            "xrp": 0.16783220728802536,
+            "zar": 0.1521318119806655
+        },
+        "price_change_percentage_24h_in_currency": {
+            "aed": -0.3118937402234476,
+            "ars": 0.2483008524715138,
+            "aud": -0.21741850550222774,
+            "bch": -0.18991237658552793,
+            "bdt": 0.051801006763605384,
+            "bhd": -0.26750047134565985,
+            "bmd": -0.31642602810759257,
+            "bnb": -0.316051389718713,
+            "brl": -0.23531890713772685,
+            "btc": 0.0,
+            "cad": -0.06164228969821584,
+            "chf": -0.030543255163955164,
+            "clp": -0.1522599666053062,
+            "cny": -0.02967473105647204,
+            "czk": -0.31573051546702746,
+            "dkk": -0.3266852261818777,
+            "eos": -0.0904324553609832,
+            "eth": 0.9301210633424823,
+            "eur": -0.35211093343690975,
+            "gbp": -0.48809671525123766,
+            "hkd": -0.2884651875457815,
+            "huf": -0.4885320152764801,
+            "idr": 0.11380090446651035,
+            "ils": -0.11790512786795251,
+            "inr": -0.3964154788156177,
+            "jpy": -0.31324499519445453,
+            "krw": 0.1199374639053496,
+            "kwd": -0.2589002804709329,
+            "lkr": -0.1855181454352263,
+            "ltc": -0.8454379523476118,
+            "mmk": -0.23130710088874384,
+            "mxn": 0.03476073388986172,
+            "myr": -0.032270274266065754,
+            "nok": -0.3737439777947819,
+            "nzd": 0.03965885696984337,
+            "php": -0.06806170437060582,
+            "pkr": 0.19892873979794676,
+            "pln": -0.4766096054967771,
+            "rub": -0.07975765811046723,
+            "sar": -0.3111107047646606,
+            "sek": -0.3822531663894247,
+            "sgd": -0.23560746040293565,
+            "thb": -0.19404366351278826,
+            "try": -0.48811720204688225,
+            "twd": -0.22601594546871884,
+            "usd": -0.31642602810759257,
+            "vef": -0.31642602810762943,
+            "xag": 0.1601002408572323,
+            "xau": -0.17199227643982473,
+            "xdr": -0.278285034818597,
+            "xlm": 0.13055107005309172,
+            "xrp": -0.42665146380428104,
+            "zar": -0.3519800909629236
+        },
+        "price_change_percentage_7d_in_currency": {
+            "aed": 1.108644000558533,
+            "ars": 3.5098383763459884,
+            "aud": 1.7440634112108635,
+            "bch": 2.9342679298281396,
+            "bdt": 1.4313344353222208,
+            "bhd": 1.1209535076801467,
+            "bmd": 1.1035241309458852,
+            "bnb": -14.363251533805125,
+            "brl": 2.276270976267803,
+            "btc": 0.0,
+            "cad": 1.3329811642199985,
+            "chf": 2.460372259385344,
+            "clp": 0.6991595929421089,
+            "cny": 1.6317977932762313,
+            "czk": 1.9693159497253059,
+            "dkk": 1.950007718981936,
+            "eos": -3.5149727712747296,
+            "eth": -0.21337665737651218,
+            "eur": 1.9211009521551432,
+            "gbp": 0.778033412595906,
+            "hkd": 1.1744518004742917,
+            "huf": 0.7320056512636915,
+            "idr": 1.8606248745884764,
+            "ils": 1.7213668587253008,
+            "inr": 2.2755550239472013,
+            "jpy": 2.2482910851321942,
+            "krw": 2.220824880041143,
+            "kwd": 1.2931416445708384,
+            "lkr": 1.0240405876891645,
+            "ltc": -2.540696726280804,
+            "mmk": 1.9579780328184133,
+            "mxn": 1.1793603557895094,
+            "myr": 1.8001659184332008,
+            "nok": 1.3174390868671526,
+            "nzd": 2.529229496187035,
+            "php": 2.1985403033828517,
+            "pkr": 1.1445690348514985,
+            "pln": 1.7491372286253994,
+            "rub": 0.4187064545377332,
+            "sar": 1.088701740661716,
+            "sek": 1.9396611727730197,
+            "sgd": 1.5184565207923943,
+            "thb": 0.7093058799502819,
+            "try": -2.1061019204619553,
+            "twd": 1.4285122445965726,
+            "usd": 1.1035241309458852,
+            "vef": 1.1035241309458113,
+            "xag": 3.3518668139688907,
+            "xau": 1.723487512883719,
+            "xdr": 1.4058783806273119,
+            "xlm": 0.5102883340872192,
+            "xrp": -0.08582146116839483,
+            "zar": 0.7268096923495843
+        },
+        "price_change_percentage_14d_in_currency": {
+            "aed": -11.93213724604836,
+            "ars": -10.759688119437588,
+            "aud": -12.370899496774596,
+            "bch": 18.266368976375162,
+            "bdt": -11.796124846712736,
+            "bhd": -11.909614633684638,
+            "bmd": -11.937411946588593,
+            "bnb": -14.615606767126064,
+            "brl": -10.986908667911003,
+            "btc": 0.0,
+            "cad": -12.446317888471226,
+            "chf": -10.937847445849668,
+            "clp": -13.100601269445514,
+            "cny": -12.848881654364927,
+            "czk": -11.599579603385418,
+            "dkk": -11.626866576741197,
+            "eos": 6.865590829310066,
+            "eth": 17.118389542819756,
+            "eur": -11.618598339467294,
+            "gbp": -12.995694450414682,
+            "hkd": -11.800584219758484,
+            "huf": -12.567745995404914,
+            "idr": -12.224554401156587,
+            "ils": -12.32937354590572,
+            "inr": -9.836100989976302,
+            "jpy": -10.984683634883591,
+            "krw": -10.657401600324977,
+            "kwd": -11.891531798756215,
+            "lkr": -12.254891708427627,
+            "ltc": 10.286461434072866,
+            "mmk": -12.250615091956076,
+            "mxn": -13.055325595562925,
+            "myr": -11.885644356979022,
+            "nok": -12.432364301586228,
+            "nzd": -11.78272498281245,
+            "php": -11.320601345823873,
+            "pkr": -11.354772758344584,
+            "pln": -11.779500545409933,
+            "rub": -13.766109859017703,
+            "sar": -11.935064174372217,
+            "sek": -11.340070318849774,
+            "sgd": -11.924710346949032,
+            "thb": -12.363121266183215,
+            "try": -12.03519708115023,
+            "twd": -11.645957982093888,
+            "usd": -11.937411946588593,
+            "vef": -11.937411946588687,
+            "xag": -9.39932237939567,
+            "xau": -11.6387336243542,
+            "xdr": -12.004846548013006,
+            "xlm": 2.99673774068478,
+            "xrp": 0.5006175555946327,
+            "zar": -13.031049343227489
+        },
+        "price_change_percentage_30d_in_currency": {
+            "aed": -8.102930354478366,
+            "ars": -8.405068715974801,
+            "aud": -9.659807246032296,
+            "bch": 44.8532832231403,
+            "bdt": -8.027163471435312,
+            "bhd": -8.067128496422153,
+            "bmd": -8.107108425373351,
+            "bnb": -21.85360050382397,
+            "brl": -11.611757663491776,
+            "btc": 0.0,
+            "cad": -10.156643938687493,
+            "chf": -7.913018908048061,
+            "clp": -10.930021008708517,
+            "cny": -9.546739333702723,
+            "czk": -9.058446020104064,
+            "dkk": -8.073054062599514,
+            "eos": 1.941564039169227,
+            "eth": -14.653327935276577,
+            "eur": -8.091539893856508,
+            "gbp": -9.955380200220514,
+            "hkd": -7.956938430269038,
+            "huf": -9.407907970750179,
+            "idr": -10.23120521215309,
+            "ils": -9.822566038018175,
+            "inr": -6.7264548052824615,
+            "jpy": -9.38941618143964,
+            "krw": -7.763605690093746,
+            "kwd": -8.265831658799895,
+            "lkr": -7.763011357413137,
+            "ltc": -9.411063371538223,
+            "mmk": -9.87122958082461,
+            "mxn": -11.718377987285649,
+            "myr": -9.354992353843059,
+            "nok": -10.239988540909737,
+            "nzd": -8.360533765487347,
+            "php": -8.403878609120909,
+            "pkr": -7.598840686291132,
+            "pln": -8.218296680791052,
+            "rub": -11.413465085933915,
+            "sar": -8.121805017479286,
+            "sek": -8.389926774411581,
+            "sgd": -9.14963746049764,
+            "thb": -10.313631920437562,
+            "try": -8.038092109658944,
+            "twd": -7.8282067207902815,
+            "usd": -8.107108425373351,
+            "vef": -8.107108425373497,
+            "xag": -11.965705139554093,
+            "xau": -9.87268161340314,
+            "xdr": -8.368806585763517,
+            "xlm": 6.1324415487928405,
+            "xrp": 2.8245749878411575,
+            "zar": -13.206329010923174
+        },
+        "price_change_percentage_60d_in_currency": {
+            "aed": -23.3889847970135,
+            "ars": -20.111994047431345,
+            "aud": -22.315240550536636,
+            "bch": 49.575688069856504,
+            "bdt": -22.999327451753498,
+            "bhd": -23.381467479429762,
+            "bmd": -23.388984797013286,
+            "bnb": -26.15980674503357,
+            "brl": -24.248090085893256,
+            "btc": 0.0,
+            "cad": -23.005960119782298,
+            "chf": -23.14879274681391,
+            "clp": -22.73238363548161,
+            "cny": -24.81563312481559,
+            "czk": -24.512947146206745,
+            "dkk": -23.21057639716249,
+            "eos": 26.090194544870037,
+            "eth": -9.63213731192822,
+            "eur": -23.26624470563351,
+            "gbp": -24.09198989194837,
+            "hkd": -23.26280850753956,
+            "huf": -24.24694195544038,
+            "idr": -25.32014364498483,
+            "ils": -24.08333824507635,
+            "inr": -23.370875545126562,
+            "jpy": -25.667829255743126,
+            "krw": -23.83518414764866,
+            "kwd": -23.5597902119974,
+            "lkr": -22.030738626408848,
+            "ltc": -13.192075984347312,
+            "mmk": -26.17633259784099,
+            "mxn": -27.55252713131214,
+            "myr": -24.36688062312437,
+            "nok": -23.083965358516906,
+            "nzd": -22.30065335957002,
+            "php": -22.522847542554793,
+            "pkr": -20.21031539021928,
+            "pln": -23.6088389572523,
+            "rub": -22.557788778280802,
+            "sar": -23.44103101692951,
+            "sek": -23.577181209345106,
+            "sgd": -24.202451232781268,
+            "thb": -25.960144514171912,
+            "try": -23.309309263962145,
+            "twd": -23.299881102253657,
+            "usd": -23.388984797013286,
+            "vef": -23.395158788074593,
+            "xag": -27.28378188730901,
+            "xau": -26.666827921713022,
+            "xdr": -23.64892810198098,
+            "xlm": 53.235809356191545,
+            "xrp": 8.571532155124325,
+            "zar": -23.980260052945592
+        },
+        "price_change_percentage_200d_in_currency": {
+            "aed": -46.14414863198875,
+            "ars": -27.450929117128293,
+            "aud": -44.46065254390575,
+            "bch": 236.6132033401686,
+            "bdt": -46.23806477876079,
+            "bhd": -46.48204710787699,
+            "bmd": -46.14414863198854,
+            "brl": -48.30812393424022,
+            "btc": 0.0,
+            "cad": -45.49710816443436,
+            "chf": -45.87561803714449,
+            "clp": -44.856105019184675,
+            "cny": -44.78134444792893,
+            "czk": -45.34250891749661,
+            "dkk": -44.63936761050178,
+            "eth": 114.5095728035525,
+            "eur": -44.74702316296757,
+            "gbp": -44.729526080560625,
+            "hkd": -46.12907662505369,
+            "huf": -45.67534634275609,
+            "idr": -46.24379994940483,
+            "ils": -45.29519158624963,
+            "inr": -44.42299009462845,
+            "jpy": -46.53387504143743,
+            "krw": -45.35027606501871,
+            "kwd": -46.0019567270135,
+            "lkr": -38.29348876791906,
+            "ltc": 48.60472160541042,
+            "mmk": -41.12889988135998,
+            "mxn": -46.909913399908156,
+            "myr": -45.21000582979966,
+            "nok": -42.828112772872316,
+            "nzd": -45.876954812530535,
+            "php": -46.82970671640786,
+            "pkr": -38.03049401546019,
+            "pln": -46.00321836958874,
+            "rub": -43.56097276928933,
+            "sar": -46.13265999642381,
+            "sek": -44.71126795464346,
+            "sgd": -46.36534063005831,
+            "thb": -48.42567465004772,
+            "try": -37.801652903134055,
+            "twd": -45.47717032725383,
+            "usd": -46.14414863198854,
+            "vef": 67.49078256969837,
+            "xag": -43.23015606354769,
+            "xau": -47.11780609071639,
+            "xdr": -45.73961264188311,
+            "zar": -45.58881710621976
+        },
+        "price_change_percentage_1y_in_currency": {
+            "aed": -69.79844368125109,
+            "ars": -39.68697041371587,
+            "aud": -66.24973497194198,
+            "bch": 346.6822612916503,
+            "bdt": -69.52345542252638,
+            "bhd": -69.7837510101731,
+            "bmd": -69.80041700451397,
+            "brl": -64.5177992098922,
+            "btc": 0.0,
+            "cad": -67.8394949551172,
+            "chf": -68.6790188035783,
+            "clp": -66.5785389432467,
+            "cny": -67.85189664071838,
+            "czk": -67.2347527501684,
+            "dkk": -67.33778709814034,
+            "eth": 173.06855029295824,
+            "eur": -67.4400144201289,
+            "gbp": -67.47076161013493,
+            "hkd": -69.69031164176114,
+            "huf": -66.55495283677925,
+            "idr": -67.85314205666826,
+            "ils": -67.38045357672188,
+            "inr": -66.32086172760675,
+            "jpy": -70.06961514152653,
+            "krw": -67.97943330492845,
+            "kwd": -69.54102422941641,
+            "lkr": -64.46213245246781,
+            "ltc": 88.08375144223301,
+            "mmk": -65.63577748605262,
+            "mxn": -68.87237683216892,
+            "myr": -68.3763324157947,
+            "nok": -67.07910419716005,
+            "nzd": -67.29113593878542,
+            "php": -68.49709020998958,
+            "pkr": -61.95464706658419,
+            "pln": -66.57435116028869,
+            "rub": -64.58263020749455,
+            "sar": -69.79437749054907,
+            "sek": -66.08969227143939,
+            "sgd": -68.90742405593961,
+            "thb": -69.84261108436634,
+            "try": -58.02654323566665,
+            "twd": -68.26767807790162,
+            "usd": -69.80041700451397,
+            "vef": 750697.566144531,
+            "xag": -66.22084334426009,
+            "xau": -68.51904180140352,
+            "xdr": -68.78594316449859,
+            "zar": -65.4269079537089
+        },
+        "market_cap_change_24h_in_currency": {
+            "aed": -466655269.28738403,
+            "ars": 7916073214.048828,
+            "aud": -52492688.547058105,
+            "bch": -982342.2026432753,
+            "bdt": 8244604632.8203125,
+            "bhd": -37509972.21208954,
+            "bmd": -129860843.08202362,
+            "bnb": -20465724.09503174,
+            "brl": -344878014.49645996,
+            "btc": 1825.0,
+            "cad": 32798749.29032898,
+            "chf": 43668398.61858368,
+            "clp": -18813565390.523438,
+            "cny": 325362762.5616455,
+            "czk": -2874748278.6064453,
+            "dkk": -889326728.8492432,
+            "eos": -15591269.538879395,
+            "eth": 5387944.220525622,
+            "eur": -118314096.27245331,
+            "gbp": -190181889.9213333,
+            "hkd": -876324599.8105469,
+            "huf": -63446198196.958984,
+            "idr": 1674751447214.0,
+            "ils": -24813686.52481079,
+            "inr": -12783274675.705078,
+            "jpy": -14615378451.295898,
+            "krw": 259478358630.64844,
+            "kwd": -28560114.240341187,
+            "lkr": -8840001156.345703,
+            "ltc": -14592150.838173866,
+            "mmk": -118525892873.07812,
+            "mxn": 1545809769.8330078,
+            "myr": 190767414.7894287,
+            "nok": -1435118525.1053467,
+            "nzd": 131776664.1007843,
+            "php": 1237040950.3510742,
+            "pkr": 26418596505.66211,
+            "pln": -859597137.3017578,
+            "rub": 373755205.40234375,
+            "sar": -510267885.72561646,
+            "sek": -1528131580.529663,
+            "sgd": -114522130.2567749,
+            "thb": 268652734.4123535,
+            "try": -1287027044.857788,
+            "twd": -2277854897.4768066,
+            "usd": -129860843.08202362,
+            "vef": -32268814716884.0,
+            "xag": 10803246.815162182,
+            "xau": -31410.521958351135,
+            "xdr": -76054050.64904785,
+            "xlm": 1667289503.1767578,
+            "xrp": -706474802.2312317,
+            "zar": -2136007079.347412
+        },
+        "market_cap_change_percentage_24h_in_currency": {
+            "aed": -0.2050552554436537,
+            "ars": 0.33981486492208585,
+            "aud": -0.06075242221328122,
+            "bch": -0.19285584126643682,
+            "bdt": 0.15902927320460367,
+            "bhd": -0.16061440907869068,
+            "bmd": -0.2095924007054161,
+            "bnb": -0.2134670346350685,
+            "brl": -0.14834448480297044,
+            "btc": 0.010433206753286104,
+            "cad": 0.03991484432006968,
+            "chf": 0.07087135076146298,
+            "clp": -0.0452463764714431,
+            "cny": 0.07746621559636088,
+            "czk": -0.20619537102928373,
+            "dkk": -0.21852565922543368,
+            "eos": -0.05865124461890046,
+            "eth": 1.0236560259863765,
+            "eur": -0.2170795740470995,
+            "gbp": -0.39504754454000934,
+            "hkd": -0.18032928433402262,
+            "huf": -0.3660632318578267,
+            "idr": 0.19080552999851347,
+            "ils": -0.010858740158252318,
+            "inr": -0.28956253872135235,
+            "jpy": -0.21507588121908058,
+            "krw": 0.37166908159545803,
+            "kwd": -0.15200500114335164,
+            "lkr": -0.07854422045549064,
+            "ltc": -0.7206066660126483,
+            "mmk": -0.12438224919173504,
+            "mxn": 0.13068057456715695,
+            "myr": 0.07486789067116353,
+            "nok": -0.2704793330375654,
+            "nzd": 0.14360385643336712,
+            "php": 0.03792356641083127,
+            "pkr": 0.3063146870763171,
+            "pln": -0.36755659148364606,
+            "rub": 0.009104842984171989,
+            "sar": -0.21956931305753738,
+            "sek": -0.2734542962011569,
+            "sgd": -0.13610903723011195,
+            "thb": 0.013662910839899714,
+            "try": -0.3896476563467218,
+            "twd": -0.11908542309563228,
+            "usd": -0.2095924007054161,
+            "vef": -0.20959240070543886,
+            "xag": 0.26744457456536913,
+            "xau": -0.06500385541400126,
+            "xdr": -0.17141053066465503,
+            "xlm": 0.27682364424161704,
+            "xrp": -0.3618344348679794,
+            "zar": -0.24926110835543644
+        },
+        "total_supply": 21000000,
+        "circulating_supply": "17494050.0",
+        "last_updated": "2019-01-21T21:01:00.709Z"
+    },
+    "community_data": {
+        "facebook_likes": 40025,
+        "twitter_followers": 64219,
+        "reddit_average_posts_48h": 3.87,
+        "reddit_average_comments_48h": 189.435,
+        "reddit_subscribers": 1012798,
+        "reddit_accounts_active_48h": 4936,
+        "telegram_channel_user_count": null
+    },
+    "developer_data": {
+        "forks": 21930,
+        "stars": 36844,
+        "subscribers": 3523,
+        "total_issues": 4445,
+        "closed_issues": 3821,
+        "pull_requests_merged": 6125,
+        "pull_request_contributors": 564,
+        "commit_count_4_weeks": 175
+    },
+    "public_interest_stats": {
+        "alexa_rank": 0,
+        "bing_matches": 30200000
+    },
+    "status_updates": [],
+    "last_updated": "2019-01-21T21:01:00.709Z",
+    "tickers": [
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "CoinBene",
+                "identifier": "coinbene",
+                "has_trading_incentive": true
+            },
+            "last": 3530.8,
+            "converted_last": {
+                "btc": "0.999934863198556795042806207",
+                "eth": "30.3714821662732928465631841229070003552771",
+                "usd": "3531.58403768789606545398934698836674309251"
+            },
+            "volume": 69529.3078,
+            "converted_volume": {
+                "btc": "69524.7788832833479183127869422535146",
+                "eth": "2111708.13188102655724822980102967385847677084019138",
+                "usd": "245548593.577968525869359372044675154299762651664578"
+            },
+            "timestamp": "2019-01-21T21:00:08+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "ZBG",
+                "identifier": "zbg",
+                "has_trading_incentive": true
+            },
+            "last": 3531.2001,
+            "converted_last": {
+                "btc": "0.999999971681016556353842526",
+                "eth": "30.371889216565447766640362094696008019579",
+                "usd": "3531.39174119576291599637992628805994380594"
+            },
+            "volume": 30392.3264,
+            "converted_volume": {
+                "btc": "30392.3255393202118645099759443924864",
+                "eth": "923072.3704544973754858849161961887845080625585856",
+                "usd": "107327210.444685952839977759938154658234915786738816"
+            },
+            "timestamp": "2019-01-21T20:58:56+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "FCNY",
+            "market": {
+                "name": "FatBTC",
+                "identifier": "fatbtc",
+                "has_trading_incentive": false
+            },
+            "last": 24363.82,
+            "converted_last": {
+                "btc": "0.998461970341804859157382686",
+                "eth": "30.325177208953144233003501861686019696219",
+                "usd": "3525.96045581471422465560307186893874859634"
+            },
+            "volume": 30032.0907,
+            "converted_volume": {
+                "btc": "29985.9004538057935319152424005616202",
+                "eth": "910728.4724328536796557431013277733984388354550633",
+                "usd": "105891964.213640839989437247717566587010589780568038"
+            },
+            "timestamp": "2019-01-21T20:58:22+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "HitBTC",
+                "identifier": "hitbtc",
+                "has_trading_incentive": false
+            },
+            "last": 3530.68,
+            "converted_last": {
+                "btc": "0.999678893414990630626232209377149165",
+                "eth": "30.3637074781382909169312510802180998478397319466745",
+                "usd": "3530.68000000000000000000000000000000130579063412345"
+            },
+            "volume": 29102.93,
+            "converted_volume": {
+                "btc": "29093.58485753393327377109215324851574855345",
+                "eth": "883672.853276735210875086015000011744604690370062831706285",
+                "usd": "102753132.8924000000000000000000000000380023334195503767085"
+            },
+            "timestamp": "2019-01-21T21:00:14+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "OKEx",
+                "identifier": "okex",
+                "has_trading_incentive": true
+            },
+            "last": 3530.2615,
+            "converted_last": {
+                "btc": "1.000377111400912463370278141",
+                "eth": "30.3845819450333299329737475375072770199558",
+                "usd": "3533.07309595634510638732576912791756573215"
+            },
+            "volume": 22434.4434,
+            "converted_volume": {
+                "btc": "22442.9036843792653678350781965217194",
+                "eth": "681661.18387851215149482533281609638339231906560172",
+                "usd": "79262528.39929539316011343844486173398828369873531"
+            },
+            "timestamp": "2019-01-21T20:59:05+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "BW.com",
+                "identifier": "bw",
+                "has_trading_incentive": false
+            },
+            "last": 3532.8237,
+            "converted_last": {
+                "btc": "1.001743171140666986684714255",
+                "eth": "30.4337374037538455601834259609322542861185",
+                "usd": "3536.9374911699049031188319206530564670873"
+            },
+            "volume": 22223.1432,
+            "converted_volume": {
+                "btc": "22261.881941881149788606898139946316",
+                "eth": "676333.3044348179274346404933963950924992251976692",
+                "usd": "78601868.35571753219239192838940391138576715480136"
+            },
+            "timestamp": "2019-01-21T20:49:00+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Bibox",
+                "identifier": "bibox",
+                "has_trading_incentive": false
+            },
+            "last": 3531.6024,
+            "converted_last": {
+                "btc": "1.000385724406837188183797212",
+                "eth": "30.3795504326598951851413417645602825547616",
+                "usd": "3533.3534322985707754828162267146344650372"
+            },
+            "volume": 20507.0,
+            "converted_volume": {
+                "btc": "20514.910050411010218085129426484",
+                "eth": "622993.4407225564705616934955658377143504961312",
+                "usd": "72458478.8361467908928261123612370089745178604"
+            },
+            "timestamp": "2019-01-21T21:01:21+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "EXX",
+                "identifier": "exx",
+                "has_trading_incentive": true
+            },
+            "last": 3530.7646,
+            "converted_last": {
+                "btc": "1.001771986374765670165734946",
+                "eth": "30.425684754759950003790587941292563696494",
+                "usd": "3537.44399591395533672450982746403114053628"
+            },
+            "volume": 20132.147,
+            "converted_volume": {
+                "btc": "20167.820890178779562330090295909062",
+                "eth": "612534.358058486263188962673650529262344680592618",
+                "usd": "71216342.53000714819037233034945051213385404779316"
+            },
+            "timestamp": "2019-01-21T20:56:22+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Huobi",
+                "identifier": "huobi",
+                "has_trading_incentive": false
+            },
+            "last": 3530.0,
+            "converted_last": {
+                "btc": "1.000615109004685599929701828",
+                "eth": "30.4000532230080103066190831179928902825524",
+                "usd": "3531.8429937595222842370522387849127636318"
+            },
+            "volume": 18288.457713752527,
+            "converted_volume": {
+                "btc": "18299.707108774067999308356694535098091519356",
+                "eth": "555970.0878648082160046218145742543021286420248523195099148",
+                "usd": "64591961.2429841533989153683627799117901702326493509475586"
+            },
+            "timestamp": "2019-01-21T20:47:42+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 3531.12,
+            "converted_last": {
+                "btc": "1.00077088765446094547103503",
+                "eth": "30.395303391769247103503004193261807127495",
+                "usd": "3534.1141475746361049767600043865077676857"
+            },
+            "volume": 18047.654102,
+            "converted_volume": {
+                "btc": "18061.56681573921324112912368136519306",
+                "eth": "548563.92193999876552498761219784465416446797373449",
+                "usd": "63782469.6924116146511411253078356949069276866517414"
+            },
+            "timestamp": "2019-01-21T20:58:26+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Coineal",
+                "identifier": "coineal",
+                "has_trading_incentive": false
+            },
+            "last": 3530.89,
+            "converted_last": {
+                "btc": "1.001619775444090798200375584",
+                "eth": "30.421085718403309387038392376162854710736",
+                "usd": "3536.90374013799373206474563121755498446464"
+            },
+            "volume": 17403.626564,
+            "converted_volume": {
+                "btc": "17431.816530946493512388019908479413376",
+                "eth": "529437.215514524858913771922845642938633837585591104",
+                "usd": "61554951.88617654074102750563536078759075941602269696"
+            },
+            "timestamp": "2019-01-21T20:57:25+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Coinsuper",
+                "identifier": "coinsuper",
+                "has_trading_incentive": true
+            },
+            "last": 3538.49,
+            "converted_last": {
+                "btc": "1.002010017329709746195632017422135964",
+                "eth": "30.432938102056639136989846370330619127346146884006",
+                "usd": "3538.49000000000000000000000000000000164742925859716"
+            },
+            "volume": 17169.3742,
+            "converted_volume": {
+                "btc": "17203.8849396822714098198325126215717291937288",
+                "eth": "522514.5022796482269373437339327181775150834487796630090452",
+                "usd": "60753658.912958000000000000000000000028285329408883207097272"
+            },
+            "timestamp": "2019-01-21T20:58:59+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Dcoin",
+                "identifier": "dcoin",
+                "has_trading_incentive": false
+            },
+            "last": 3528.9295,
+            "converted_last": {
+                "btc": "1.001002554295261827532465794",
+                "eth": "30.402315666574621792178697937419790116366",
+                "usd": "3534.72698752589464704537656044058071333692"
+            },
+            "volume": 16964.165,
+            "converted_volume": {
+                "btc": "16981.17249648628036046229258627201",
+                "eth": "515749.89934985686889511514129554899379940202439",
+                "usd": "59963691.8463422185650945304584464839168652114718"
+            },
+            "timestamp": "2019-01-21T20:56:13+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Bitforex",
+                "identifier": "bitforex",
+                "has_trading_incentive": true
+            },
+            "last": 3530.91,
+            "converted_last": {
+                "btc": "1.000555405998951529491775174",
+                "eth": "30.3982393641770211827880814431285697647342",
+                "usd": "3531.6322617401766980263251111560307529469"
+            },
+            "volume": 16930.8485,
+            "converted_volume": {
+                "btc": "16940.251994824239504668527467055139",
+                "eth": "514667.9853416174728270758145192711807083953829687",
+                "usd": "59793530.78123527803751395946872841653948489244465"
+            },
+            "timestamp": "2019-01-21T20:46:30+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "JPY",
+            "market": {
+                "name": "Liquid (Quoine)",
+                "identifier": "quoine",
+                "has_trading_incentive": false
+            },
+            "last": 388469.99995,
+            "converted_last": {
+                "btc": "1.003481131176803013739729353",
+                "eth": "30.4799725728399554314707455930818841378688",
+                "usd": "3542.59189974191974471806849282213285113979"
+            },
+            "volume": 16132.89963484,
+            "converted_volume": {
+                "btc": "16189.060374731075479816207634665886186190246495528",
+                "eth": "491730.3383903029322814047468810251089076874538415950267806911488",
+                "usd": "57152279.56573355893971769100100649016134985252496655241157264504"
+            },
+            "timestamp": "2019-01-21T20:50:45+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Digifinex",
+                "identifier": "digifinex",
+                "has_trading_incentive": false
+            },
+            "last": 3528.39,
+            "converted_last": {
+                "btc": "1.000116213810735888525445156",
+                "eth": "30.375273356913316247541085846430807422682",
+                "usd": "3531.46693112483026295500541532904782723044"
+            },
+            "volume": 15736.5,
+            "converted_volume": {
+                "btc": "15738.328798632645309780667697394",
+                "eth": "478000.489181066401129430297422358401007035293",
+                "usd": "55572929.36164589143299144271832556113321181906"
+            },
+            "timestamp": "2019-01-21T20:53:28+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "ZG.TOP",
+                "identifier": "zgtop",
+                "has_trading_incentive": false
+            },
+            "last": 3529.11,
+            "converted_last": {
+                "btc": "1.00040820144741429895653505",
+                "eth": "30.393767088912407045727066305788665795165",
+                "usd": "3531.1126779768319396372109634439473179675"
+            },
+            "volume": 14433.271,
+            "converted_volume": {
+                "btc": "14439.16268211312282611468759764855",
+                "eth": "438681.477105153866153288140026416682150046934715",
+                "usd": "50965506.2127753471062395075195575849499480966925"
+            },
+            "timestamp": "2019-01-21T20:46:46+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Bit-Z",
+                "identifier": "bit_z",
+                "has_trading_incentive": true
+            },
+            "last": 3530.49,
+            "converted_last": {
+                "btc": "1.000501598313269400802557301",
+                "eth": "30.3871245654997595686254505812981493171165",
+                "usd": "3532.95525092771882166904713242226538128996"
+            },
+            "volume": 13396.78,
+            "converted_volume": {
+                "btc": "13403.49980225124124328368359889078",
+                "eth": "407089.62263659586899377006383852342080855998487",
+                "usd": "47330224.2465234449557594572426919564147577103288"
+            },
+            "timestamp": "2019-01-21T20:57:38+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Bitmart",
+                "identifier": "bitmart",
+                "has_trading_incentive": false
+            },
+            "last": 3530.0,
+            "converted_last": {
+                "btc": "1.000008498655795941608568911",
+                "eth": "30.372124341675898095451236118839530865129",
+                "usd": "3531.03864825295897698847298861774379957312"
+            },
+            "volume": 12362.94828,
+            "converted_volume": {
+                "btc": "12363.05334844205474834063745150892308",
+                "eth": "375489.00238986817667661413539928105370505348252812",
+                "usd": "43654048.1830324441894702017144581952844131686382336"
+            },
+            "timestamp": "2019-01-21T20:55:41+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Purcow",
+                "identifier": "purcow",
+                "has_trading_incentive": false
+            },
+            "last": 3526.25,
+            "converted_last": {
+                "btc": "0.998886742319088545060025268",
+                "eth": "30.3469568724032353520217099461985477083916",
+                "usd": "3526.85206160975632262377555877517510003128"
+            },
+            "volume": 11327.305475,
+            "converted_volume": {
+                "btc": "11314.6952651759258734682084218547423",
+                "eth": "343749.25073036204421066906739243676489431287412401",
+                "usd": "39949730.666987230106672159252085225204667990615258"
+            },
+            "timestamp": "2019-01-21T20:48:30+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "CKUSD",
+            "market": {
+                "name": "Allcoin",
+                "identifier": "allcoin",
+                "has_trading_incentive": false
+            },
+            "last": 3665.6398,
+            "converted_last": {
+                "btc": "1.00382243084453011578364652",
+                "eth": "30.483915772947057783829175679358362797536",
+                "usd": "3545.491848702528316168866315057811457012"
+            },
+            "volume": 10998.4717,
+            "converted_volume": {
+                "btc": "11040.512597468771578244159573023484",
+                "eth": "335276.4849339418406337099063437512273870325257312",
+                "usd": "38994991.7605354394038319285872466231738822485604"
+            },
+            "timestamp": "2019-01-21T21:01:25+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "KKCoin",
+                "identifier": "kkcoin",
+                "has_trading_incentive": false
+            },
+            "last": 3530.19,
+            "converted_last": {
+                "btc": "1.000700168947648906375789462",
+                "eth": "30.393131659249538344879979144299692568218",
+                "usd": "3533.65920838362033387003503768181472666516"
+            },
+            "volume": 10949.88,
+            "converted_volume": {
+                "btc": "10957.54676595648180694612951416456",
+                "eth": "332801.14449298333493183438603258431765887891384",
+                "usd": "38693144.2926956366214368192584113494392163021808"
+            },
+            "timestamp": "2019-01-21T20:56:24+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "TOKOK",
+                "identifier": "tokok",
+                "has_trading_incentive": false
+            },
+            "last": 3530.33,
+            "converted_last": {
+                "btc": "1.00026066679700006516669925",
+                "eth": "30.37978315872590910945455472678255507075",
+                "usd": "3531.92905613813871258935629462062129456"
+            },
+            "volume": 9688.22529781,
+            "converted_volume": {
+                "btc": "9690.7506964669951351642342486259536425",
+                "eth": "294326.1837403505432821083453545438627834296443700575",
+                "usd": "34218124.4317477111372751063836870668424557837329136"
+            },
+            "timestamp": "2019-01-21T20:55:39+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "IDCM",
+                "identifier": "idcm",
+                "has_trading_incentive": false
+            },
+            "last": 3539.31,
+            "converted_last": {
+                "btc": "1.001006858516580640599589903",
+                "eth": "30.4119551080630368727992646498731857024499",
+                "usd": "3533.22574098814596577812345283150561750805"
+            },
+            "volume": 9652.052,
+            "converted_volume": {
+                "btc": "9661.770250758679205260552922430956",
+                "eth": "293537.7721246900511741758879623377818057029621948",
+                "usd": "34102878.5797561162452806680291492394584798090186"
+            },
+            "timestamp": "2019-01-21T20:47:52+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Allcoin",
+                "identifier": "allcoin",
+                "has_trading_incentive": false
+            },
+            "last": 3530.7764,
+            "converted_last": {
+                "btc": "1.000243235125758452505607921",
+                "eth": "30.3752233414239505983737071738116000858728",
+                "usd": "3532.8501614320619315384624538739149904951"
+            },
+            "volume": 9627.0385,
+            "converted_volume": {
+                "btc": "9629.3801339202289639719089213719585",
+                "eth": "292423.4445539870172326417163500104657733007517028",
+                "usd": "34010884.51883767534930514227424865375922346176135"
+            },
+            "timestamp": "2019-01-21T21:02:00+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Hb.top",
+                "identifier": "hb_top",
+                "has_trading_incentive": false
+            },
+            "last": 3537.19,
+            "converted_last": {
+                "btc": "1.002897671372311077213585599",
+                "eth": "30.459873908913105132734330034899632576761",
+                "usd": "3541.41899989691530809731866173255812995682"
+            },
+            "volume": 9026.9908,
+            "converted_volume": {
+                "btc": "9053.1480528192754687451268371854892",
+                "eth": "274961.0015449186380326255760692026621938018407988",
+                "usd": "31968356.731014655434573661064128114299585418537256"
+            },
+            "timestamp": "2019-01-21T20:56:42+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Lbank",
+                "identifier": "lbank",
+                "has_trading_incentive": false
+            },
+            "last": 3533.93,
+            "converted_last": {
+                "btc": "1.001195565641369970904125268",
+                "eth": "30.408055154119535198359071989274314856146",
+                "usd": "3535.27818350160119264755461468053874189332"
+            },
+            "volume": 8622.9955,
+            "converted_volume": {
+                "btc": "8633.304857145487872941403117400294",
+                "eth": "262208.522757724558477541885147688465270130105343",
+                "usd": "30484687.86758248132699449652839451950892175984006"
+            },
+            "timestamp": "2019-01-21T20:53:54+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "HUSD",
+            "market": {
+                "name": "Huobi",
+                "identifier": "huobi",
+                "has_trading_incentive": false
+            },
+            "last": 3543.46,
+            "converted_last": {
+                "btc": "1.0",
+                "eth": "30.3813653715933",
+                "usd": "3529.67186081435"
+            },
+            "volume": 8583.126899662302,
+            "converted_volume": {
+                "btc": "8583.126899662302",
+                "eth": "260767.1143693912227665136857766",
+                "usd": "30295621.4955367402629617156337"
+            },
+            "timestamp": "2019-01-21T20:47:40+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "QC",
+            "market": {
+                "name": "ZB",
+                "identifier": "zb",
+                "has_trading_incentive": true
+            },
+            "last": 24047.57,
+            "converted_last": {
+                "btc": "0.9999355485772452380793975",
+                "eth": "30.365879566527971716886106442061611878",
+                "usd": "3531.76341529431003159367161951731928225"
+            },
+            "volume": 8568.5107,
+            "converted_volume": {
+                "btc": "8567.95844729449559900736492830325",
+                "eth": "260190.3639807062875054359737301438514358900946",
+                "usd": "30261952.613817839154827713324120479105275445075"
+            },
+            "timestamp": "2019-01-21T21:01:41+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "CoinTiger",
+                "identifier": "cointiger",
+                "has_trading_incentive": false
+            },
+            "last": 3497.96,
+            "converted_last": {
+                "btc": "0.997504783686133156149211084",
+                "eth": "30.2984455844971286522124726627947647486464",
+                "usd": "3521.49358553080804594620028497339734647012"
+            },
+            "volume": 7419.8987,
+            "converted_volume": {
+                "btc": "7401.3844477165206133384283281971908",
+                "eth": "224811.39700443098504028407803445641332528725011968",
+                "usd": "26129125.677338381430065751764413740505657092976844"
+            },
+            "timestamp": "2019-01-21T20:50:33+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "BITKER",
+                "identifier": "bitker",
+                "has_trading_incentive": false
+            },
+            "last": 3530.2338,
+            "converted_last": {
+                "btc": "1.001007803487450348480763606",
+                "eth": "30.4113963619599432367091130285063195998922",
+                "usd": "3534.34106775781026162626171257849548849476"
+            },
+            "volume": 6745.42219644,
+            "converted_volume": {
+                "btc": "6752.22025645389722162455586027293476264",
+                "eth": "205137.708044699265571060108042111318687925465711223768",
+                "usd": "23840622.6882429833609437893276475110139129547486306544"
+            },
+            "timestamp": "2019-01-21T20:48:55+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "CoinMex",
+                "identifier": "coinmex",
+                "has_trading_incentive": false
+            },
+            "last": 3530.1299,
+            "converted_last": {
+                "btc": "0.999986204663979323878967483",
+                "eth": "30.3730415842502626508670127786012073398799",
+                "usd": "3531.76536619881298493141395027252323083919"
+            },
+            "volume": 6449.7132,
+            "converted_volume": {
+                "btc": "6449.6242240391690097492517774758756",
+                "eth": "195897.40723008783112276396376271288451596027744468",
+                "usd": "22778873.701675317933243541649736836679250170820308"
+            },
+            "timestamp": "2019-01-21T21:00:17+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Coinbase Pro",
+                "identifier": "gdax",
+                "has_trading_incentive": false
+            },
+            "last": 3538.64,
+            "converted_last": {
+                "btc": "1.001882491418955655492178514227497732",
+                "eth": "30.4250040090367032541177942638079968358071214594976",
+                "usd": "3538.6399999999999999999999999999999982977376494492"
+            },
+            "volume": 6085.66546313,
+            "converted_volume": {
+                "btc": "6097.12167614297702004174128587892027939280462116",
+                "eth": "185156.396113386455414139144508031150461179720384165623441123488",
+                "usd": "21534979.234450343199999999999999999989640600804066503307407996"
+            },
+            "timestamp": "2019-01-21T21:01:15+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Max Maicoin",
+                "identifier": "max_maicoin",
+                "has_trading_incentive": true
+            },
+            "last": 3544.0,
+            "converted_last": {
+                "btc": "1.006515083525983652650054245",
+                "eth": "30.565685810181802979784496713192648227316",
+                "usd": "3555.0022738934145967407542045991097274595"
+            },
+            "volume": 6003.230651,
+            "converted_volume": {
+                "btc": "6042.342200117010218513743020396663495",
+                "eth": "183492.861924519167530685424043246861906084226662716",
+                "usd": "21341498.6150116436142049003419065006831971267611345"
+            },
+            "timestamp": "2019-01-21T21:01:08+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "P2PB2B",
+                "identifier": "p2pb2b",
+                "has_trading_incentive": false
+            },
+            "last": 3530.76,
+            "converted_last": {
+                "btc": "0.999879922717094037877778617108775943",
+                "eth": "30.3682431026293753330698156581365753240122408340095",
+                "usd": "3530.75999999999999999999999999999999988550882698828"
+            },
+            "volume": 5941.21778785,
+            "converted_volume": {
+                "btc": "5940.50438256088240110063998421103397089175769255",
+                "eth": "180424.346107094717834768407134041475899702902474155360635884575",
+                "usd": "20977014.116629265999999999999999999999319783006350957279476398"
+            },
+            "timestamp": "2019-01-21T20:57:52+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "LATOKEN",
+                "identifier": "latoken",
+                "has_trading_incentive": false
+            },
+            "last": 3526.5491,
+            "converted_last": {
+                "btc": "0.999984574392896734776109648",
+                "eth": "30.3737673323409554965166909268362528299008",
+                "usd": "3530.24799674782188888345400995686464743664"
+            },
+            "volume": 5904.8303614271,
+            "converted_volume": {
+                "btc": "5904.73927583393313141100211748443197847473710298206864408",
+                "eth": "179351.943534929485347135505309144100702237969596886307518025377652691968",
+                "usd": "20845515.5545637366486689908217072588405239780735890927911678375448854344"
+            },
+            "timestamp": "2019-01-21T20:51:00+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "QQC",
+            "market": {
+                "name": "TopBTC",
+                "identifier": "topbtc",
+                "has_trading_incentive": false
+            },
+            "last": 24281.05,
+            "converted_last": {
+                "btc": "1.000161056862546411974392371",
+                "eth": "30.3862584989799250226756529052903916347143",
+                "usd": "3530.24033869007111494599446310872648732385"
+            },
+            "volume": 5896.3166,
+            "converted_volume": {
+                "btc": "5897.2662422521763271950485120406586",
+                "eth": "179167.00039942641497795782864130196401626706334738",
+                "usd": "20815414.71100788857023657525633607159206730633091"
+            },
+            "timestamp": "2019-01-21T20:46:15+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Bitstamp",
+                "identifier": "bitstamp",
+                "has_trading_incentive": false
+            },
+            "last": 3538.23,
+            "converted_last": {
+                "btc": "1.001837270483629304659819017095581426",
+                "eth": "30.4289315435956807438859507982006965360237251151388",
+                "usd": "3538.2299999999999999999999999999999986662331544599"
+            },
+            "volume": 5679.2726399,
+            "converted_volume": {
+                "btc": "5689.7069998897717508083717206766459558644264974",
+                "eth": "172814.19837693302371656675957421878198616224678368626413091812",
+                "usd": "20094572.83267337699999999999999999999242517444611838073169001"
+            },
+            "timestamp": "2019-01-21T20:59:02+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Bkex",
+                "identifier": "bkex",
+                "has_trading_incentive": false
+            },
+            "last": 3529.9349,
+            "converted_last": {
+                "btc": "1.000633982769048510496248772",
+                "eth": "30.3870895020919388194637047116097259489696",
+                "usd": "3534.2302786137621584061721366032452032732"
+            },
+            "volume": 5582.230599999997,
+            "converted_volume": {
+                "btc": "5585.769638013252326274632773125291711253684",
+                "eth": "169627.7408635162937300696617546955290588380047605821530912",
+                "usd": "19728888.4087242580990861454885275402144984673901843901804"
+            },
+            "timestamp": "2019-01-21T21:01:21+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "CNYT",
+            "market": {
+                "name": "QBTC",
+                "identifier": "qbtc",
+                "has_trading_incentive": false
+            },
+            "last": 24085.4192,
+            "converted_last": {
+                "btc": "0.999956282514464696079486476",
+                "eth": "30.370415964566828110361466708745991704222",
+                "usd": "3531.14119337630788119548698295473895694868"
+            },
+            "volume": 5177.838997790011,
+            "converted_volume": {
+                "btc": "5177.612635688520982645652856181355762391236",
+                "eth": "157253.124160438455489008826532957009489602290797578126442",
+                "usd": "18283680.57776660542845284584628004952413503570979194363548"
+            },
+            "timestamp": "2019-01-21T20:53:26+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "KRW",
+            "market": {
+                "name": "Upbit",
+                "identifier": "upbit",
+                "has_trading_incentive": false
+            },
+            "last": 3972000.0,
+            "converted_last": {
+                "btc": "0.993689392090775403373460652",
+                "eth": "30.1761973056145540040115743346084066925536",
+                "usd": "3509.7020464425822089188206142281313833012"
+            },
+            "volume": 4724.99706006,
+            "converted_volume": {
+                "btc": "4695.17945624172239758536218692809075912",
+                "eth": "142582.443552819261000502790177236872333676588293969216",
+                "usd": "16583331.851127766518736288113430444192245590977470072"
+            },
+            "timestamp": "2019-01-21T21:00:13+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "ZB",
+                "identifier": "zb",
+                "has_trading_incentive": true
+            },
+            "last": 3530.62,
+            "converted_last": {
+                "btc": "0.999977341603648001812671708",
+                "eth": "30.3671487303338517619735463174045919790944",
+                "usd": "3531.9110278898155385617582909923086774148"
+            },
+            "volume": 4628.6455,
+            "converted_volume": {
+                "btc": "4628.540622315688107174214744211514",
+                "eth": "140558.7663184904964557259262810963363433713886352",
+                "usd": "16347964.0856425691883939589856892400943269656534"
+            },
+            "timestamp": "2019-01-21T21:01:34+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Fcoin",
+                "identifier": "fcoin",
+                "has_trading_incentive": true
+            },
+            "last": 3528.87,
+            "converted_last": {
+                "btc": "1.000243763481396027789036879",
+                "eth": "30.3887712389858443062803109923797526893107",
+                "usd": "3530.53226591532770159381634353852712241365"
+            },
+            "volume": 4556.809012509,
+            "converted_volume": {
+                "btc": "4557.919796137945989382116263172173319411",
+                "eth": "138475.8266608849856359308040801353986761035279468875463",
+                "usd": "16087961.24827678662290685087782050087948205781712234785"
+            },
+            "timestamp": "2019-01-21T20:47:31+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "BITCNY",
+            "market": {
+                "name": "CoinTiger",
+                "identifier": "cointiger",
+                "has_trading_incentive": false
+            },
+            "last": 23399.33,
+            "converted_last": {
+                "btc": "0.999504504947048237724857577",
+                "eth": "30.3591855897571554127922299477923670814592",
+                "usd": "3528.55320640514544667383995350719327682011"
+            },
+            "volume": 4527.3401,
+            "converted_volume": {
+                "btc": "4525.0968253774198632860804751409377",
+                "eth": "137446.35832384971896226631561106128996181020267392",
+                "usd": "15974960.426341591827058887242495251760598084489411"
+            },
+            "timestamp": "2019-01-21T20:50:34+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Hotbit",
+                "identifier": "hotbit",
+                "has_trading_incentive": false
+            },
+            "last": 3534.35,
+            "converted_last": {
+                "btc": "1.005662336923273911991919077",
+                "eth": "30.5451107757632595512811392977393871734326",
+                "usd": "3551.73914487560471837698644185418421432855"
+            },
+            "volume": 4184.641764,
+            "converted_volume": {
+                "btc": "4208.336615570971275733045000122531828",
+                "eth": "127820.3462382653748950629552108218703537119691991064",
+                "usd": "14862755.9604801020892757957610447768614287775475622"
+            },
+            "timestamp": "2019-01-21T20:59:04+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Bilaxy",
+                "identifier": "bilaxy",
+                "has_trading_incentive": false
+            },
+            "last": 3530.04,
+            "converted_last": {
+                "btc": "1.000657648566212737972401438",
+                "eth": "30.4007583828545372501218917675350615624706",
+                "usd": "3533.10474680816733142086106693311119208948"
+            },
+            "volume": 4180.6227,
+            "converted_volume": {
+                "btc": "4183.3720805245314253965734252154426",
+                "eth": "127094.10059257696922585515849030020141396205844262",
+                "usd": "14770577.905983976891136475029966784031273340519196"
+            },
+            "timestamp": "2019-01-21T20:48:14+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "XBT",
+            "target": "EUR",
+            "market": {
+                "name": "Kraken",
+                "identifier": "kraken",
+                "has_trading_incentive": false
+            },
+            "last": 3119.0,
+            "converted_last": {
+                "btc": "1.004231574223408786500934105142204379",
+                "eth": "30.5002640287681924215601765443402771684350070142755",
+                "usd": "3545.99850156266827885791724422418484729190020448171"
+            },
+            "volume": 4043.71443973,
+            "converted_volume": {
+                "btc": "4060.82571751998737095638394209675789240513757767",
+                "eth": "123334.358068707443819994041267476831392631075229649673594365615",
+                "usd": "14339005.3440299046887257862335027052082829218431328303876823383"
+            },
+            "timestamp": "2019-01-21T20:54:12+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Bitinfi",
+                "identifier": "bitinfi",
+                "has_trading_incentive": false
+            },
+            "last": 3528.79,
+            "converted_last": {
+                "btc": "1.000408238479311664564049499",
+                "eth": "30.3866358052327982150906487898963503218304",
+                "usd": "3531.74365911168217491884842758750748447857"
+            },
+            "volume": 3910.0,
+            "converted_volume": {
+                "btc": "3911.59621245410860844543354109",
+                "eth": "118811.745998460241021004436768494729758356864",
+                "usd": "13809117.7071266773039326973518671542643112087"
+            },
+            "timestamp": "2019-01-21T20:50:22+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "JPY",
+            "market": {
+                "name": "BTCBox",
+                "identifier": "btcbox",
+                "has_trading_incentive": false
+            },
+            "last": 387824.0,
+            "converted_last": {
+                "btc": "1.001433667148437554780301779",
+                "eth": "30.415409368477704076267536275300919995781",
+                "usd": "3536.24932753417003332882203524923924404922"
+            },
+            "volume": 3872.5544,
+            "converted_volume": {
+                "btc": "3878.1063540238173058896986875942776",
+                "eth": "117785.3273776995542224477831800761890537096929864",
+                "usd": "13694317.892839491312915676419421396531195480727568"
+            },
+            "timestamp": "2019-01-21T20:56:25+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "XBT",
+            "target": "USD",
+            "market": {
+                "name": "Kraken",
+                "identifier": "kraken",
+                "has_trading_incentive": false
+            },
+            "last": 3537.3,
+            "converted_last": {
+                "btc": "1.001768146809715964262232486199355984",
+                "eth": "30.425445442635367327272231203326759508816902728648",
+                "usd": "3537.30000000000000000000000000000000152874441108816"
+            },
+            "volume": 3715.22024483,
+            "converted_volume": {
+                "btc": "3721.78929965328832816909090769995093506480556272",
+                "eth": "113037.23086644957712204532154728400897283726389916991761488984",
+                "usd": "13141848.5720371590000000000000000000056796221852454479619142128"
+            },
+            "timestamp": "2019-01-21T20:54:11+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "JEX",
+                "identifier": "jex",
+                "has_trading_incentive": false
+            },
+            "last": 3508.74,
+            "converted_last": {
+                "btc": "1.000984226697363128300368871",
+                "eth": "30.401759023223078507056477493948742199569",
+                "usd": "3534.66226935446633893344059960550712981778"
+            },
+            "volume": 3716.8304,
+            "converted_volume": {
+                "btc": "3720.4886037092508751059113509464784",
+                "eth": "112998.1821509898441766141300664245010491209260976",
+                "usd": "13137740.176469668864324515597207976907523471164512"
+            },
+            "timestamp": "2019-01-21T20:56:11+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "VHKD",
+            "market": {
+                "name": "IDCM",
+                "identifier": "idcm",
+                "has_trading_incentive": false
+            },
+            "last": 27607.22,
+            "converted_last": {
+                "btc": "1.001039576047326636099432349",
+                "eth": "30.4129491113186872995860913738635796916617",
+                "usd": "3533.34122313577543442276697034657187340815"
+            },
+            "volume": 3448.3412,
+            "converted_volume": {
+                "btc": "3451.9260129145295891190798656694788",
+                "eth": "104874.22543406361574507946183145838503024033657204",
+                "usd": "12184166.11339748762446792556184526206983450806078"
+            },
+            "timestamp": "2019-01-21T20:47:53+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "JPY",
+            "market": {
+                "name": "bitFlyer",
+                "identifier": "bitflyer",
+                "has_trading_incentive": false
+            },
+            "last": 388295.0,
+            "converted_last": {
+                "btc": "1.003029077870744665260137057",
+                "eth": "30.4662417990944026159488591019061924172672",
+                "usd": "3540.99601484629064797183035584903314787651"
+            },
+            "volume": 3154.79685454,
+            "converted_volume": {
+                "btc": "3164.35297987878199065016559827289268878",
+                "eth": "96114.803797438091993315808332195305156142561742713088",
+                "usd": "11171123.0895757528778081488371590186660210084283528554"
+            },
+            "timestamp": "2019-01-21T20:50:20+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "OAX",
+                "identifier": "oax",
+                "has_trading_incentive": false
+            },
+            "last": 3528.94,
+            "converted_last": {
+                "btc": "1.000731632618337322338048299",
+                "eth": "30.3939646992310769263489830844619995655155",
+                "usd": "3533.64000975091883432207715570878517728251"
+            },
+            "volume": 2712.35926660361,
+            "converted_volume": {
+                "btc": "2714.34371711570669852198867928465786775939",
+                "eth": "82439.351800782415608444334162331274826026048049363810955",
+                "usd": "9584501.2252891754985731569192387972651630485190971558611"
+            },
+            "timestamp": "2019-01-21T20:54:31+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "KRW",
+            "market": {
+                "name": "Bithumb",
+                "identifier": "bithumb",
+                "has_trading_incentive": false
+            },
+            "last": 3975000.0,
+            "converted_last": {
+                "btc": "0.994643774254448230738736008",
+                "eth": "30.2107218466428691355070134860174678239672",
+                "usd": "3511.85638053503634035097157906100164081624"
+            },
+            "volume": 2707.98785627,
+            "converted_volume": {
+                "btc": "2693.48326199560508186988404075337757016",
+                "eth": "81810.267889859678886543785589550422312398639654794344",
+                "usd": "9510064.4314531944149335736257930986528729222906018248"
+            },
+            "timestamp": "2019-01-21T20:51:04+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "UEX",
+                "identifier": "uex",
+                "has_trading_incentive": false
+            },
+            "last": 3530.8,
+            "converted_last": {
+                "btc": "1.000909969696024764782755366",
+                "eth": "30.4002452788137984743124909774137508825472",
+                "usd": "3534.04630558583438438140487002897677517782"
+            },
+            "volume": 2394.89954915,
+            "converted_volume": {
+                "btc": "2397.0788351647498717254556237281432389",
+                "eth": "72805.53371228058201292994249802163482162270388359488",
+                "usd": "8463685.903922737893781594324876010826309182029079853"
+            },
+            "timestamp": "2019-01-21T20:51:54+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "B2BX",
+                "identifier": "b2bx",
+                "has_trading_incentive": false
+            },
+            "last": 3526.41684403,
+            "converted_last": {
+                "btc": "1.0",
+                "eth": "30.3734605963453",
+                "usd": "3531.81408876093"
+            },
+            "volume": 2393.70037635,
+            "converted_volume": {
+                "btc": "2393.70037635",
+                "eth": "72704.964060523640044553655",
+                "usd": "8454104.7134652704461760055"
+            },
+            "timestamp": "2019-01-21T20:56:17+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "TUSD",
+            "market": {
+                "name": "Digifinex",
+                "identifier": "digifinex",
+                "has_trading_incentive": false
+            },
+            "last": 3532.38,
+            "converted_last": {
+                "btc": "0.996965959476508059258339378",
+                "eth": "30.279716748748471216128112717098429400542",
+                "usd": "3520.29541612510161625455458911119844987776"
+            },
+            "volume": 2214.9,
+            "converted_volume": {
+                "btc": "2208.1799036445177004512958883322",
+                "eth": "67066.5446268029888966021568571013112792604758",
+                "usd": "7797102.317175487569842212959422393446634250624"
+            },
+            "timestamp": "2019-01-21T20:54:43+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Coinhub",
+                "identifier": "coinhub",
+                "has_trading_incentive": false
+            },
+            "last": 3539.34,
+            "converted_last": {
+                "btc": "1.002739104247333464719347591989981553",
+                "eth": "30.4645830985224210546637801096146514595706572183949",
+                "usd": "3539.34000000000000000000000000000000108024005768555"
+            },
+            "volume": 2044.26336163,
+            "converted_volume": {
+                "btc": "2049.86281208650891955076851290188535081746801139",
+                "eth": "62277.631055641925951133269116283977276642697761784383346847687",
+                "usd": "7235343.0863515242000000000000000000022082951716916475604754465"
+            },
+            "timestamp": "2019-01-21T20:46:34+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "EUR",
+            "market": {
+                "name": "Bitstamp",
+                "identifier": "bitstamp",
+                "has_trading_incentive": false
+            },
+            "last": 3126.61,
+            "converted_last": {
+                "btc": "1.006474041381787238848447515897551136",
+                "eth": "30.5697647790923730955386911900603063773957572562368",
+                "usd": "3554.6058749832390388639574085212139391859548593264"
+            },
+            "volume": 1892.19748684,
+            "converted_volume": {
+                "btc": "1904.44765167231597429661520521698720644958705024",
+                "eth": "57844.032088288536147589942685814960515348676464329966875923712",
+                "usd": "6726016.303349984136461357297060640216553640380243099815264576"
+            },
+            "timestamp": "2019-01-21T20:59:04+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "CNYT",
+            "market": {
+                "name": "HPX",
+                "identifier": "hpx",
+                "has_trading_incentive": false
+            },
+            "last": 24071.59,
+            "converted_last": {
+                "btc": "1.0",
+                "eth": "30.3742358733696",
+                "usd": "3530.30245380643"
+            },
+            "volume": 1869.019,
+            "converted_volume": {
+                "btc": "1869.019",
+                "eth": "56770.0239578093764224",
+                "usd": "6598202.36191083999217"
+            },
+            "timestamp": "2019-01-21T20:50:20+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "JPY",
+            "market": {
+                "name": "Coincheck",
+                "identifier": "coincheck",
+                "has_trading_incentive": false
+            },
+            "last": 388511.0,
+            "converted_last": {
+                "btc": "1.003207628866461649730934199",
+                "eth": "30.469287896459840774100563131559858932161",
+                "usd": "3542.51351770294755821871255752285263130482"
+            },
+            "volume": 1569.76271164,
+            "converted_volume": {
+                "btc": "1574.79792782735157873369914461265137636",
+                "eth": "47829.55199008663120991473666344841422032492616505404",
+                "usd": "5560905.6255707341030101229924867926277851633946021048"
+            },
+            "timestamp": "2019-01-21T20:56:25+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "ABCC",
+                "identifier": "abcc",
+                "has_trading_incentive": true
+            },
+            "last": 3529.81,
+            "converted_last": {
+                "btc": "1.000532890391816164152916866",
+                "eth": "30.388051097330037327838137369980297263374",
+                "usd": "3532.89028000328993919947391153081572556672"
+            },
+            "volume": 1314.043296,
+            "converted_volume": {
+                "btc": "1314.743537046868843769575926612630336",
+                "eth": "39931.214822951979050075458584149681271023751040704",
+                "usd": "4642370.78794188600254931630017396550159232421670912"
+            },
+            "timestamp": "2019-01-21T20:55:05+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Gemini",
+                "identifier": "gemini",
+                "has_trading_incentive": false
+            },
+            "last": 3538.73,
+            "converted_last": {
+                "btc": "1.002136171042919032372199912787108615",
+                "eth": "30.436745722781075913839649292323765852447556319985",
+                "usd": "3538.7300000000000000000000000000000000356625339157"
+            },
+            "volume": 1309.523390527,
+            "converted_volume": {
+                "btc": "1312.320756473868928907181301610828175851811090105",
+                "eth": "39857.630455504439754444272464288414013717988353602544129782095",
+                "usd": "4634049.7077596107100000000000000000000467009223280715935965739"
+            },
+            "timestamp": "2019-01-21T20:55:00+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Bgogo",
+                "identifier": "bgogo",
+                "has_trading_incentive": true
+            },
+            "last": 3530.38,
+            "converted_last": {
+                "btc": "1.000893052055012006588739606",
+                "eth": "30.398989879182784456925122550646453534234",
+                "usd": "3534.16201394762446724483518275373220698752"
+            },
+            "volume": 1289.698025,
+            "converted_volume": {
+                "btc": "1290.84979247157117624878445709747815",
+                "eth": "39205.51720917702572809702812645169359635585968785",
+                "usd": "4558001.769418273728847341126648002488730695743648"
+            },
+            "timestamp": "2019-01-21T20:55:38+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "SGD",
+            "market": {
+                "name": "Coinhub",
+                "identifier": "coinhub",
+                "has_trading_incentive": false
+            },
+            "last": 4828.14,
+            "converted_last": {
+                "btc": "1.006528474000530527914507637339486172",
+                "eth": "30.5797093255223653600346859437925691381676669578476",
+                "usd": "3552.7152317880806922531141286794489026349304841682"
+            },
+            "volume": 1263.17897228,
+            "converted_volume": {
+                "btc": "1271.42560335854685242581360903670309621023131216",
+                "eth": "38627.645798434473449643286775632459329451478870139245448864528",
+                "usd": "4487715.175293569755593999662694853938387165273020829686657496"
+            },
+            "timestamp": "2019-01-21T20:46:33+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Kryptono",
+                "identifier": "kryptono",
+                "has_trading_incentive": false
+            },
+            "last": 3529.827,
+            "converted_last": {
+                "btc": "1.000840406899842721421274373",
+                "eth": "30.397390947572765500956515739079848757347",
+                "usd": "3534.15441478660882088700354859400413541014"
+            },
+            "volume": 1169.1254874898486,
+            "converted_volume": {
+                "btc": "1170.1080286163170540483710308026459128299278",
+                "eth": "35538.3645100005203335637780080467410059858854049871676642",
+                "usd": "4131870.003051794631065053425379842696565198766363047504804"
+            },
+            "timestamp": "2019-01-21T20:56:12+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "PLN",
+            "market": {
+                "name": "BitBay",
+                "identifier": "bitbay",
+                "has_trading_incentive": false
+            },
+            "last": 13403.41,
+            "converted_last": {
+                "btc": "1.007373476679710166884281151608647473",
+                "eth": "30.5956890850296764123712395050348624389719853362185",
+                "usd": "3557.09273688455252389619168620991767348022839049377"
+            },
+            "volume": 1159.17705627,
+            "converted_volume": {
+                "btc": "1167.72422126206192488571146305675755282831430571",
+                "eth": "35465.820808136870029283148019857443685731938487035367043514995",
+                "usd": "4123300.2876212332454861863098844599220238581917398483603744379"
+            },
+            "timestamp": "2019-01-21T20:54:00+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "XBT",
+            "target": "USD",
+            "market": {
+                "name": "itBit",
+                "identifier": "itbit",
+                "has_trading_incentive": false
+            },
+            "last": 3541.19,
+            "converted_last": {
+                "btc": "1.003084026464030261528023269397749869",
+                "eth": "30.4679108206277691700431617687806345768302589885824",
+                "usd": "3541.19000000000000000000000000000000035155608385767"
+            },
+            "volume": 1137.515,
+            "converted_volume": {
+                "btc": "1141.023126363231382942049389288981442235535",
+                "eth": "34657.705577126396847461647159414503540663072053397308736",
+                "usd": "4028156.74285000000000000000000000000039990031872935749005"
+            },
+            "timestamp": "2019-01-21T20:50:41+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "EUR",
+            "market": {
+                "name": "Coinbase Pro",
+                "identifier": "gdax",
+                "has_trading_incentive": false
+            },
+            "last": 3126.18,
+            "converted_last": {
+                "btc": "1.006236987302087340492832169625080821",
+                "eth": "30.5572406294351468234941012845642315890890719505928",
+                "usd": "3554.0200405175875569365258941422167861475668624851"
+            },
+            "volume": 1022.17881315,
+            "converted_volume": {
+                "btc": "1028.55412942807925822260312322950459408260759615",
+                "eth": "31234.96395973497733493519298708175666067680605609190374293532",
+                "usd": "3632843.986927582560650586088358533691774327256255288777559065"
+            },
+            "timestamp": "2019-01-21T21:00:57+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Livecoin",
+                "identifier": "livecoin",
+                "has_trading_incentive": false
+            },
+            "last": 3516.99,
+            "converted_last": {
+                "btc": "0.995980380823616603868789897525007053",
+                "eth": "30.2498066448913227612902635612473671415411232288245",
+                "usd": "3516.98999999999999999999999999999999856450666776388"
+            },
+            "volume": 915.76358154,
+            "converted_volume": {
+                "btc": "912.08256068660827617469445678327004056904060162",
+                "eth": "27701.67127401816867594729423037844408343301112322281308409973",
+                "usd": "3220731.3586403645999999999999999999986854274847946616118467752"
+            },
+            "timestamp": "2019-01-21T20:57:55+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "JPY",
+            "market": {
+                "name": "Zaif",
+                "identifier": "zaif",
+                "has_trading_incentive": false
+            },
+            "last": 388465.0,
+            "converted_last": {
+                "btc": "1.003088848314745334785185885",
+                "eth": "30.465680309433380383852645740765224365515",
+                "usd": "3542.0940813888809408316165379740919985943"
+            },
+            "volume": 882.6959,
+            "converted_volume": {
+                "btc": "885.4224137431476165590109614273715",
+                "eth": "26891.9310998475761879671565995259264100201918885",
+                "usd": "3126591.92305623151206021050844192531338199437337"
+            },
+            "timestamp": "2019-01-21T20:56:15+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "JPY",
+            "market": {
+                "name": "Bitbank",
+                "identifier": "bitbank",
+                "has_trading_incentive": false
+            },
+            "last": 388646.0,
+            "converted_last": {
+                "btc": "1.003799206381069532481225131",
+                "eth": "30.4962013549959832238537073494877606306597",
+                "usd": "3544.19690489434858367788623540780168494626"
+            },
+            "volume": 835.8693,
+            "converted_volume": {
+                "btc": "839.0449399783001233664089133913783",
+                "eth": "25490.83847925954400013434166462118983691708197721",
+                "usd": "2962485.385956205724594826193069954408934850883818"
+            },
+            "timestamp": "2019-01-21T20:47:40+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "EUR",
+            "market": {
+                "name": "Exrates",
+                "identifier": "exrates",
+                "has_trading_incentive": false
+            },
+            "last": 3138.79458,
+            "converted_last": {
+                "btc": "1.011015140329119293681127500094525536",
+                "eth": "30.7160203745516457347290526245486302919116958565088",
+                "usd": "3568.5516916769636890163698469650203041725938302416"
+            },
+            "volume": 687.87409,
+            "converted_volume": {
+                "btc": "695.45111963011523464234832930149666705776224",
+                "eth": "21128.754563566172467779128470673500722795192147652761376992",
+                "usd": "2454714.247530251971545178403584502603564246183917055080144"
+            },
+            "timestamp": "2019-01-21T20:29:55+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Sistemkoin",
+                "identifier": "sistemkoin",
+                "has_trading_incentive": false
+            },
+            "last": 3575.61245378,
+            "converted_last": {
+                "btc": "0.999778513637764760054108691",
+                "eth": "30.3650168137986016483966923894239980426395",
+                "usd": "3530.27449270915994045296545361600193180259"
+            },
+            "volume": 623.20227868,
+            "converted_volume": {
+                "btc": "623.06424787435845456752397632759200788",
+                "eth": "18923.54767051580181387842286566404951284879620177586",
+                "usd": "2200075.1082222295213988611820568122496106560479257812"
+            },
+            "timestamp": "2019-01-21T20:54:22+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "BitMax",
+                "identifier": "bitmax",
+                "has_trading_incentive": true
+            },
+            "last": 3530.16,
+            "converted_last": {
+                "btc": "1.000272016320979258755525332",
+                "eth": "30.3896295988280074600476028707577313514756",
+                "usd": "3530.6319891681927337640258432451195741142"
+            },
+            "volume": 620.708533,
+            "converted_volume": {
+                "btc": "620.877375851547092825569534470057956",
+                "eth": "18863.1024067019110298392036880746200255825270612948",
+                "usd": "2191493.4025594608020359280493347661302580098564686"
+            },
+            "timestamp": "2019-01-21T20:45:00+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "GBP",
+            "market": {
+                "name": "Coinbase Pro",
+                "identifier": "gdax",
+                "has_trading_incentive": false
+            },
+            "last": 2767.0,
+            "converted_last": {
+                "btc": "1.010077188585808322384854150831826776",
+                "eth": "30.6738592353629159952748590401451150631468213266368",
+                "usd": "3567.5835971093195174661069439206139127891766436456"
+            },
+            "volume": 588.09912711,
+            "converted_volume": {
+                "btc": "594.02551292103672972830619958885760737232549736",
+                "eth": "18039.269841411942940885401486037634616367158151966234272003648",
+                "usd": "2098092.799351944727467903892729622763246636449583576888192216"
+            },
+            "timestamp": "2019-01-21T21:01:40+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Liquid (Quoine)",
+                "identifier": "quoine",
+                "has_trading_incentive": false
+            },
+            "last": 3543.0,
+            "converted_last": {
+                "btc": "1.003596730410415486487250456337058386",
+                "eth": "30.4834838112284814340554791318143867759988577574656",
+                "usd": "3543.00000000000000000000000000000000040391485222198"
+            },
+            "volume": 541.17096202,
+            "converted_volume": {
+                "btc": "543.11740807633113825021163992060989212852849972",
+                "eth": "16496.776259843613375691512831816026079643668099028798589056512",
+                "usd": "1917368.7184368600000000000000000000002185869891511350511891996"
+            },
+            "timestamp": "2019-01-21T20:50:45+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "AXNET",
+                "identifier": "axnet",
+                "has_trading_incentive": false
+            },
+            "last": 3535.13,
+            "converted_last": {
+                "btc": "1.0",
+                "eth": "30.3807785074287",
+                "usd": "3530.78273260646"
+            },
+            "volume": 532.740155907996,
+            "converted_volume": {
+                "btc": "532.740155907996",
+                "eth": "16185.0606786538596510797298852",
+                "usd": "1880989.74344602565247703525416"
+            },
+            "timestamp": "2019-01-21T20:48:09+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "KRW",
+            "market": {
+                "name": "Korbit",
+                "identifier": "korbit",
+                "has_trading_incentive": false
+            },
+            "last": 3971500.0,
+            "converted_last": {
+                "btc": "0.992361360432091116253039577",
+                "eth": "30.1398901553746960923814437625041887300705",
+                "usd": "3504.21057304355144379404512572755682103092"
+            },
+            "volume": 519.506587552229,
+            "converted_volume": {
+                "btc": "515.538263976763231899552075547954121002542396014",
+                "eth": "15657.871483817729750472205006241161488133131989915063064007331",
+                "usd": "1820460.47686629634564129556613154003859466839082155065138590744"
+            },
+            "timestamp": "2019-01-21T20:41:35+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "BitRabbit",
+                "identifier": "bitrabbit",
+                "has_trading_incentive": false
+            },
+            "last": 3529.71,
+            "converted_last": {
+                "btc": "1.000799571293689341034168914",
+                "eth": "30.3985222404416953225079319268064807526144",
+                "usd": "3533.12518230653466235124996920073087931702"
+            },
+            "volume": 513.563317,
+            "converted_volume": {
+                "btc": "513.973947485765079149051997812127738",
+                "eth": "15611.5659136995085949305582791409374724093076859648",
+                "usd": "1814483.48800157365197258295327887518920637548575534"
+            },
+            "timestamp": "2019-01-21T20:50:31+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "KRW",
+            "market": {
+                "name": "Coinone",
+                "identifier": "coinone",
+                "has_trading_incentive": false
+            },
+            "last": 3972000.0,
+            "converted_last": {
+                "btc": "0.994208615196282199789438376",
+                "eth": "30.1983269853080272332522580678642386717696",
+                "usd": "3509.85711382292777994962823666133311755768"
+            },
+            "volume": 496.2095,
+            "converted_volume": {
+                "btc": "493.335759842239592216417321835772",
+                "eth": "14984.6967342162035393984863497258799391994573312",
+                "usd": "1741624.44352151808222491505249960177559673761396"
+            },
+            "timestamp": "2019-01-21T20:50:43+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "KRW",
+            "market": {
+                "name": "GoPax",
+                "identifier": "gopax",
+                "has_trading_incentive": false
+            },
+            "last": 3977000.0,
+            "converted_last": {
+                "btc": "0.993677166694600465424613547",
+                "eth": "30.1798536785418194302167525244699645010755",
+                "usd": "3509.06343925322693152256954809264802652093"
+            },
+            "volume": 462.95825688,
+            "converted_volume": {
+                "btc": "460.03104899438942278101579676675395336",
+                "eth": "13972.01245191117658359686254930295431133339236527444",
+                "usd": "1624549.8931180117091327599223635416591015017636364984"
+            },
+            "timestamp": "2019-01-21T20:57:53+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Coindeal",
+                "identifier": "coindeal",
+                "has_trading_incentive": false
+            },
+            "last": 3536.1,
+            "converted_last": {
+                "btc": "1.001163350300276121161206690751208015",
+                "eth": "30.403165248896380071690234750144535079396866946652",
+                "usd": "3536.0999999999999999999999999999999983732197219465"
+            },
+            "volume": 455.6843334,
+            "converted_volume": {
+                "btc": "456.214453906092014107282104814584169560012201",
+                "eth": "13854.2460896933920386412088334091280213078773886336099817768",
+                "usd": "1611345.3713357399999999999999999999992587017134069242029631"
+            },
+            "timestamp": "2019-01-21T20:28:16+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Bittrex",
+                "identifier": "bittrex",
+                "has_trading_incentive": false
+            },
+            "last": 3536.564,
+            "converted_last": {
+                "btc": "1.001464623307576853077049574836299905",
+                "eth": "30.4163734547679478910126520179064899508576366666825",
+                "usd": "3536.56399999999999999999999999999999910739028288695"
+            },
+            "volume": 446.52003968,
+            "converted_volume": {
+                "btc": "447.1740233374154692806137062532317630849802304",
+                "eth": "13581.5202819446827774871416944176379633864731744380928339616",
+                "usd": "1579146.697610859519999999999999999999601431873695927338954176"
+            },
+            "timestamp": "2019-01-21T20:58:18+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Upbit",
+                "identifier": "upbit",
+                "has_trading_incentive": false
+            },
+            "last": 3538.78448771,
+            "converted_last": {
+                "btc": "1.002627126263693176934458793",
+                "eth": "30.4476169584898080193704443400203890301224",
+                "usd": "3541.2700436124500664927616256303352542783"
+            },
+            "volume": 370.82666831,
+            "converted_volume": {
+                "btc": "371.80087678959503931868469344117394983",
+                "eth": "11290.788354695831076914661818294057661510361823501144",
+                "usd": "1313197.371858813254993748760363516726012358662530673"
+            },
+            "timestamp": "2019-01-21T21:00:04+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Bittrex",
+                "identifier": "bittrex",
+                "has_trading_incentive": false
+            },
+            "last": 3538.78448771,
+            "converted_last": {
+                "btc": "0.998983578457707308420313183",
+                "eth": "30.3369702932833582864829088104752571358744",
+                "usd": "3528.4010653454346161413848753301512474873"
+            },
+            "volume": 370.82666831,
+            "converted_volume": {
+                "btc": "370.44975209587308942264234677866133073",
+                "eth": "11249.757620477711324144487581946084831386856730620264",
+                "usd": "1308425.211523502117972653501228104698394105718037463"
+            },
+            "timestamp": "2019-01-21T21:01:24+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "EUR",
+            "market": {
+                "name": "Bitsane",
+                "identifier": "bitsane",
+                "has_trading_incentive": false
+            },
+            "last": 3111.213,
+            "converted_last": {
+                "btc": "1.001616746912520804620298341820703037",
+                "eth": "30.4209937361753718278079692723828951856268593861605",
+                "usd": "3537.10120805735318349020672797301761313662836101403"
+            },
+            "volume": 355.23204545,
+            "converted_volume": {
+                "btc": "355.80636576270973764094839055421161699053703165",
+                "eth": "10806.511829523214994306530114439324052383186700205325836994725",
+                "usd": "1256491.6971018795922842953060212067791234012829994949130476635"
+            },
+            "timestamp": "2019-01-21T20:58:05+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "EUR",
+            "market": {
+                "name": "Cryptology",
+                "identifier": "cryptology",
+                "has_trading_incentive": false
+            },
+            "last": 3118.56183744,
+            "converted_last": {
+                "btc": "1.004498113318533164677241145913313425",
+                "eth": "30.5180241958064861124720602688701058300347745300525",
+                "usd": "3545.54872482153076641895153781928772275722728764875"
+            },
+            "volume": 351.22419349,
+            "converted_volume": {
+                "btc": "352.80403971252843823358137763164691714921460325",
+                "eth": "10718.668435080438924963884798092575473724910702971683079858225",
+                "usd": "1245282.4913549400876227178293219745637916658731730524571566375"
+            },
+            "timestamp": "2019-01-21T20:47:45+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Cryptology",
+                "identifier": "cryptology",
+                "has_trading_incentive": false
+            },
+            "last": 3535.09325174,
+            "converted_last": {
+                "btc": "1.001535947572304696078601955579063516",
+                "eth": "30.4280295559791006897977653235060750978569628200428",
+                "usd": "3535.0932517400000000000000000000000001036701342546"
+            },
+            "volume": 351.47626239,
+            "converted_volume": {
+                "btc": "352.01611150194064885595190500347405274009196324",
+                "eth": "10694.730100227985587403589360880264485853418790825837523830292",
+                "usd": "1242501.363321686564058600000000000000036437591309276316664494"
+            },
+            "timestamp": "2019-01-21T20:47:45+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "KRW",
+            "market": {
+                "name": "GDAC",
+                "identifier": "gdac",
+                "has_trading_incentive": false
+            },
+            "last": 3964000.0,
+            "converted_last": {
+                "btc": "0.99048655454328267080161185",
+                "eth": "30.08292512892072194012729556601054882215",
+                "usd": "3497.593028212168361342551645304581344483"
+            },
+            "volume": 343.55366706,
+            "converted_volume": {
+                "btc": "340.285287986969465044044540826250661",
+                "eth": "10335.099243932137282553330154903402342492796253379",
+                "usd": "1201610.91072578047625334476256182535151519974982998"
+            },
+            "timestamp": "2019-01-21T20:23:10+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Poloniex",
+                "identifier": "poloniex",
+                "has_trading_incentive": false
+            },
+            "last": 3530.46023976,
+            "converted_last": {
+                "btc": "1.001060194304044836569064462",
+                "eth": "30.4129880357547236992999052496642761688594",
+                "usd": "3534.52604834838923214944595941014501762452"
+            },
+            "volume": 337.00746392,
+            "converted_volume": {
+                "btc": "337.36475731366857977011128826561921104",
+                "eth": "10249.403968159001717061381747685652143089800073052848",
+                "usd": "1191161.6597130699597437209132139042315090631880073184"
+            },
+            "timestamp": "2019-01-21T20:48:27+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "ExtStock",
+                "identifier": "extstock",
+                "has_trading_incentive": false
+            },
+            "last": 3492.79,
+            "converted_last": {
+                "btc": "0.989239572218477069699337817060033018",
+                "eth": "30.0538683343530694720040444244498551641383802808166",
+                "usd": "3492.78999999999999999999999999999999983847280009628"
+            },
+            "volume": 328.5826414,
+            "converted_volume": {
+                "btc": "325.0469516169532534471403237604956314256537452",
+                "eth": "9875.17944158954992730879226846867615168001954778839217696724",
+                "usd": "1147670.164055505999999999999999999999946924965997689856713992"
+            },
+            "timestamp": "2019-01-21T20:48:30+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Hotbit",
+                "identifier": "hotbit",
+                "has_trading_incentive": false
+            },
+            "last": 3553.71,
+            "converted_last": {
+                "btc": "1.006220377558942831942142099084214048",
+                "eth": "30.5620602153594895233930361257108207599820739199424",
+                "usd": "3553.7100000000000000000000000000000003219251575152"
+            },
+            "volume": 318.792055,
+            "converted_volume": {
+                "btc": "320.77506194489126902235512086907021442178864",
+                "eth": "9742.941981088194228913436559204590885811347108100343177632",
+                "usd": "1132894.513774050000000000000000000000102627182520469301736"
+            },
+            "timestamp": "2019-01-21T20:59:03+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "TopBTC",
+                "identifier": "topbtc",
+                "has_trading_incentive": false
+            },
+            "last": 3522.13,
+            "converted_last": {
+                "btc": "0.999869414266207534796839825",
+                "eth": "30.3773979987026334966601279098836651431725",
+                "usd": "3529.21093602435894200006245319163101148875"
+            },
+            "volume": 300.8114,
+            "converted_volume": {
+                "btc": "300.772118322597861232786103334005",
+                "eth": "9137.8676203469373658172284007511791488489201665",
+                "usd": "1061626.88256079784744555758663200899284934697175"
+            },
+            "timestamp": "2019-01-21T20:46:15+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "IDR",
+            "market": {
+                "name": "Indodax (Bitcoin Indonesia)",
+                "identifier": "indodax",
+                "has_trading_incentive": false
+            },
+            "last": 50806000.0,
+            "converted_last": {
+                "btc": "1.011673283676853707531203052",
+                "eth": "30.726405631839643027595068797643345242228",
+                "usd": "3572.22710493936001061550286978685623190784"
+            },
+            "volume": 296.20353837,
+            "converted_volume": {
+                "btc": "299.66120629948083183959546118534310524",
+                "eth": "9101.27006954279779721135892942554037803143834228836",
+                "usd": "1058106.3083442597394275927116077561836095875037438208"
+            },
+            "timestamp": "2019-01-21T20:55:35+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Gate.io",
+                "identifier": "gate",
+                "has_trading_incentive": false
+            },
+            "last": 3526.61,
+            "converted_last": {
+                "btc": "0.999657011979069226887993152",
+                "eth": "30.361449035351665841794649399689546216128",
+                "usd": "3529.97562628561034854385994899305120151936"
+            },
+            "volume": 274.9665419,
+            "converted_volume": {
+                "btc": "274.8722316699715404980979756363210688",
+                "eth": "8348.3826483237384069226272353555454566289461677632",
+                "usd": "970625.190951041019269958870652529676011418445101184"
+            },
+            "timestamp": "2019-01-21T20:56:08+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "KRW",
+            "market": {
+                "name": "CPDax",
+                "identifier": "cpdax",
+                "has_trading_incentive": false
+            },
+            "last": 3970000.0,
+            "converted_last": {
+                "btc": "0.991830043577607198161208302",
+                "eth": "30.1249807609325682208428354808466378019876",
+                "usd": "3502.8870640772810155569094879081112426873"
+            },
+            "volume": 264.4939856582821,
+            "converted_volume": {
+                "btc": "262.33308132146896427506988531195479299252233664493452815134192853",
+                "eth": "7967.876229338123360835221448022535884417081813255001116448519074063883882365014",
+                "usd": "926492.5608886383119604976775461926885194805595014071278445842294031338412949095"
+            },
+            "timestamp": "2019-01-21T20:58:19+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "VB",
+            "market": {
+                "name": "Vbitex",
+                "identifier": "vbitex",
+                "has_trading_incentive": false
+            },
+            "last": 25489.7,
+            "converted_last": {
+                "btc": "1.01077405028154492822587041",
+                "eth": "30.700653312538243803235783963088606813319",
+                "usd": "3568.8086424923503882544214449127973613323"
+            },
+            "volume": 253.2361,
+            "converted_volume": {
+                "btc": "255.964478474502339598699341733801",
+                "eth": "7774.5137123192659615805973112551027438383316159",
+                "usd": "903751.18227105709215503549446608164387408245603"
+            },
+            "timestamp": "2019-01-21T20:49:31+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "EUR",
+            "market": {
+                "name": "Coinroom",
+                "identifier": "coinroom",
+                "has_trading_incentive": false
+            },
+            "last": 3129.8207,
+            "converted_last": {
+                "btc": "1.007665779923414324768811378329257438",
+                "eth": "30.604690263957465930804447689326095867957597300882",
+                "usd": "3558.25608178318819062614796538033149695441847367684"
+            },
+            "volume": 245.9234173,
+            "converted_volume": {
+                "btc": "247.8086120950357830309181266178541537244028774",
+                "eth": "7526.4100151204590435517551137981622299155418997301577440586",
+                "usd": "875058.495260629917527786134381773215937855133380858588665332"
+            },
+            "timestamp": "2019-01-21T19:02:01+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "coin_id": "bitcoin"
+        }
+    ]
+}

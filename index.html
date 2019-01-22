@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src='node_modules/jquery/dist/jquery.js'></script>
+    <script src='node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <input type="text" id="searchinput" class="form-control mr-sm-2">
+        <button class="btn btn-outline-success my-2 my-sm-0 mr-1" type="submit" id="search">Search</button>
+        <img class="float-right" src="logo.png" width="110"  >
+
+
+    </nav>
+    <div class="container">
+        <div id="All" class="row"></div>
+    </div>
+    <script>var firsttemplate = `  
+            <div class="col-md-4 mb-2" >
+                <div class="card" style="width: 13.5rem;">
+                <div>{{symbol}}</div>
+                <div>{{name}}</div>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#cl{{id}}">More Info</button>
+            </div>
+<div class="collapse" id="cl{{id}}">
+  <div class="card card-body">
+        <img src="{{img}}" >
+        <div>{{data-usd}}</div>
+        <div>{{data-eur}}</div>
+        <div>{{data-ils}}</div>
+  </div>
+</div>
+</div>
+    `
+        var res = [];
+        $.ajax({
+            url: "bigdata.json",
+            method: 'GET'
+        }).done(function (s) {
+            if (typeof s === 'string')
+                s = JSON.parse(s);
+            res = s;
+            coincardbuilder(res);
+            // console.log(typeof(res))
+            console.log(res);
+        })
+        function coincardbuilder(res) {
+            $('#All').empty()
+            for (let i = 0; i < res.length; i++) {
+                let o = i;
+                let t = firsttemplate;
+                t = t.replace('{{symbol}}', res[o].symbol);
+                t = t.replace('{{name}}', res[o].name);
+                t = t.replace(/{{id}}/g, res[o].id);
+                $('#All').append(t);
+            }
+            $('.collapse').on('show.bs.collapse', function () {
+                let newid=(this.id.replace('cl', '' ));
+                $.ajax({
+            url: 'https://api.coingecko.com/api/v3/coins/'+newid,
+            method: 'GET'
+        }).done(function (s) {
+            if (typeof s === 'string')
+                s = JSON.parse(s);
+            res = s;
+                let t = firsttemplate;
+                // t = t.replace('{{img}}', res.id);
+                t = t.replace('{{img}}', res.image.thumb);
+                t = t.replace('{{data-usd}}', res.id);
+                // t = t.replace('{{data-usd}}', res.market_data.current_price.usd);
+                t = t.replace('{{data-eur}}', res.market_data.current_price.eur);
+                t = t.replace('{{data-ils}}', res.market_data.current_price.ils);
+                $('#All').append(t);
+            console.log(res);
+            console.log(newid);
+        })
+        
+        
+            });
+        }
+        $("#search").click(function (event) {
+            console.log($('#searchinput').val());
+            const v = $('#searchinput').val();
+            const filteredArray = res.filter(c => c.id.indexOf(v.toLowerCase()) > -1)
+            coincardbuilder(filteredArray);
+        })
+    </script>
+</body>
+
+</html>
