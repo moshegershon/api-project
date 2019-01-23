@@ -14,14 +14,14 @@
 </head>
 
 <body>
-    
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
         <a class="navbar-brand" href="#">Navbar</a>
         <a class="navbar-brand" href="#">Navbar</a>
-        <input type="text" id="searchinput" class="form-control mr-sm-2">
-        <button class="btn btn-outline-success my-2 my-sm-0 mr-1" type="submit" id="search">Search</button>
-        <img class="float-right" src="logo.png" width="110"  >
+        <input type="text" id="searchinput" placeholder="Insert Coin" class="form-control mr-sm-2">
+        <button class="btn btn-outline-primary my-2 my-sm-0 mr-1" type="submit" id="search">Search</button>
+        <img class="float-right" src="logo.png" width="110">
 
 
     </nav>
@@ -35,7 +35,7 @@
                 <div>{{name}}</div>
                 <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#cl{{id}}">More Info</button>
             </div>
-<div class="collapse" id="cl{{id}}">
+            <div class="collapse" id="cl{{id}}">
   <div class="card card-body">
         <img src="{{img}}" >
         <div>{{data-usd}}</div>
@@ -45,6 +45,7 @@
 </div>
 </div>
     `
+    
         var res = [];
         $.ajax({
             url: "bigdata.json",
@@ -67,30 +68,31 @@
                 t = t.replace(/{{id}}/g, res[o].id);
                 $('#All').append(t);
             }
-            $('.collapse').on('show.bs.collapse', function () {
-                let newid=(this.id.replace('cl', '' ));
-                $.ajax({
-            url: 'https://api.coingecko.com/api/v3/coins/'+newid,
-            method: 'GET'
-        }).done(function (s) {
-            if (typeof s === 'string')
-                s = JSON.parse(s);
-            res = s;
-                let t = firsttemplate;
-                // t = t.replace('{{img}}', res.id);
-                t = t.replace('{{img}}', res.image.thumb);
-                t = t.replace('{{data-usd}}', res.id);
-                // t = t.replace('{{data-usd}}', res.market_data.current_price.usd);
-                t = t.replace('{{data-eur}}', res.market_data.current_price.eur);
-                t = t.replace('{{data-ils}}', res.market_data.current_price.ils);
-                $('#All').append(t);
-            console.log(res);
-            console.log(newid);
-        })
-        
-        
-            });
         }
+        $('.collapse').on('show.bs.collapse', function () {
+            // console.log("lasdk");
+            let newid = (this.id.replace('cl', ''));
+            $.ajax({
+                url: 'https://api.coingecko.com/api/v3/coins/bitcoin' ,
+                method: 'GET'
+            }).done(function (s) {
+                if (typeof s === 'string')
+                    s = JSON.parse(s);
+                // res = s;
+                let t = firsttemplate;
+                coincardbuilder(res);
+                console.log( s.market_data.current_price.usd);
+                t = t.replace('{{img}}', s.image.thumb);
+                t = t.replace('{{data-usd}}', s.market_data.current_price.usd);
+                t = t.replace('{{data-eur}}', s.market_data.current_price.eur);
+                t = t.replace('{{data-ils}}', s.market_data.current_price.ils);
+                $('#All').append(t);
+            })
+        });
+
+
+
+
         $("#search").click(function (event) {
             console.log($('#searchinput').val());
             const v = $('#searchinput').val();
