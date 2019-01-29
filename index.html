@@ -26,26 +26,36 @@
 
 
     </nav>
+    <div id="myProgress">
+        <div id="myBar">0%</div>
+      </div>
+      <button id="check-btn">check list</button>
+
     <div class="container">
         <div id="All" class="row"></div>
     </div>
     <script>var firsttemplate = `  
             <div class="col-md-4 mb-2" >
                 <div class="card" style="width: 13.5rem;">
+                        <label class="switch float-right">
+                        <input id="{{id}}" type="checkbox" class="checkbox">
+                        <span class="slider round"></span>
+                    </label>
                 <div>{{symbol}}</div>
                 <div>{{name}}</div>
                 <button type="button" id='btn' class="btn btn-primary" data-toggle="collapse" data-target="#cl{{id}}">More Info</button>
             </div>
             <div class="collapse" id="cl{{id}}">
   <div class="card card-body">
-        
   </div>
 </div>
 </div>`
-const secondTemplate = `   <img src="{{img}}" >
-        <div>{{data-usd}}</div>
-        <div>{{data-eur}}</div>
-        <div>{{data-ils}}</div>`;
+const secondTemplate = `<img src="{{img}}" >
+        <div>$ {{data-usd}}</div>
+        <div>€  {{data-eur}}</div>
+        <div>₪ {{data-ils}}</div>
+        <div>{{id}}</div>`;
+        var arryofcoins=[];
         var res = [];
         $.ajax({
             url: "bigdata.json",
@@ -58,23 +68,25 @@ const secondTemplate = `   <img src="{{img}}" >
             // console.log(typeof(res))
             console.log(res);
         })
+        
         function coincardbuilder(res) {
+            move();
             $('#All').empty()
             let all = '';
             for (let i = 0; i < res.length; i++) {
-                let o = i;
                 let t = firsttemplate;
+                let o = i;
                 t = t.replace('{{symbol}}', res[o].symbol);
                 t = t.replace('{{name}}', res[o].name);
                 t = t.replace(/{{id}}/g, res[o].id);
                 all += t;
-
             }
             $('#All').append(all);
             $('.collapse').on('show.bs.collapse', function () {
+                move();
                 // console.log("lasdk");
                 var that = this;
-                let newid = (this.id.replace('cl', ''));
+                let newid = (that.id.replace('cl', ''));
                 console.log(newid);
                 $.ajax({
                     url: 'https://api.coingecko.com/api/v3/coins/' + newid,
@@ -85,27 +97,69 @@ const secondTemplate = `   <img src="{{img}}" >
                     // res = s;
                     let t = secondTemplate;
                     console.log(s.market_data.current_price.usd);
+                    $('#' + that.id + ' .card').empty();
                     t = t.replace('{{img}}', s.image.thumb);
                     t = t.replace('{{data-usd}}', s.market_data.current_price.usd);
                     t = t.replace('{{data-eur}}', s.market_data.current_price.eur);
                     t = t.replace('{{data-ils}}', s.market_data.current_price.ils);
+                    t = t.replace('{{id}}', newid);
                     console.log(that.id)
                     $('#' + that.id + ' .card').append(t);
-                })
+                });
+                // $('#myProgress').empty()
             });
 
         }
-        $(document).ready(function () {
-            $('#btn').click(function () {
-                $('.collapse').collapse('show');
-            });
-        });
+       
+
+        
+        
+            console.log(arryofcoins);
+        // $(document).ready(function () {
+        //     $('#btn').click(function () {
+        //         $('.collapse').collapse('show');
+        //     });
+        // });
         $("#search").click(function (event) {
             console.log($('#searchinput').val());
             const v = $('#searchinput').val();
             const filteredArray = res.filter(c => c.id.indexOf(v.toLowerCase()) > -1)
             coincardbuilder(filteredArray);
-        })
+        });
+
+$('#check-btn').click(function(){
+    checklist();
+            
+})
+function checklist(){
+    arryofcoins=[];
+    for(let i=0; i<res.length;i++){
+    if ($('#'+res[i].id).is(':checked')){
+            arryofcoins.push(res[i].id);
+            //console.log(res[i].id); 
+        }
+    }
+    if (arryofcoins.length>5){
+        alert('sorry but you can chose only 5 coins');
+        arryofcoins =[];
+    }
+     console.log(arryofcoins);  
+        }
+
+     function move() {
+  var elem = document.getElementById("myBar"); 
+  var width = 10;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1 + '%';
+    }
+  }
+}
     </script>
 </body>
 
