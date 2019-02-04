@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <script src='node_modules/jquery/dist/jquery.js'></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
+    <script>
+        var coinsArray = [
+            'BTC',
+            'ETH',
+            'LTC',
+            'TRX',
+            'AUR'
+        ];
+        var dArray = [];
+        var d = new Date();
+        const DATA_INTERVAL = 2 * 1000;
+        buildGraph(dArray);
+        
+        for (let i = 0; i < coinsArray.length; i++) {
+            dArray.push({
+                type: "spline",
+                name: coinsArray[i],
+                showInLegend: true,
+                xValueFormatString: "dd/MM/yyyy hh:mm:ss",
+                yValueFormatString: "#,##0 Units",
+                dataPoints: []
+            });
+        }
+
+        setInterval(() => {
+            d.setTime(d.getTime() + DATA_INTERVAL);
+            coinPrice(coinsArray, d.getTime());
+        }, DATA_INTERVAL)
+
+        function coinPrice(coinSymbolsArray, datetime) {
+            coinSymbolsArray.map(c => c.toUpperCase());
+
+            $.ajax({
+                url: 'https://min-api.cryptocompare.com/data/pricemulti?fsyms=' + coinSymbolsArray.join(',') + '&tsyms=USD',
+                method: 'GET'
+            }).done(function (s) {
+                if (typeof s === 'string') {
+                    s = JSON.parse(s);
+                }
+
+                for (let prop in s) {
+                    const temp = dArray.find(c => c.name === prop);
+                    temp.dataPoints.push({
+                        x: datetime,
+                        y: s[prop].USD
+                    });
+                }
+                renderGraph();
+
+            });
+        }
+
+        function renderGraph() {
+            $("#chartContainer").CanvasJSChart().render();
+        }
+
+        function buildGraph(data) {
+            var options = {
+                exportEnabled: true,
+                animationEnabled: true,
+                title: {
+                    text: "CRYPTO every 2 sec"
+                },
+                subtitles: [{
+                    text: "Click Legend to Hide or Unhide Data Series"
+                }],
+                axisX: {
+                    title: "Date time"
+                },
+                axisY: {
+                    title: "Profit in USD",
+                    titleFontColor: "#4F81BC",
+                    lineColor: "#4F81BC",
+                    labelFontColor: "#4F81BC",
+                    tickColor: "#4F81BC",
+                    includeZero: false
+                },
+                toolTip: {
+                    shared: true
+                },
+                legend: {
+                    cursor: "pointer",
+                    itemclick: toggleDataSeries
+                },
+                data: data
+            };
+            $("#chartContainer").CanvasJSChart(options);
+
+            function toggleDataSeries(e) {
+                if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                    e.dataSeries.visible = false;
+                } else {
+                    e.dataSeries.visible = true;
+                }
+                e.chart.render();
+            }
+
+        }
+    </script>
+</body>
+
+</html>

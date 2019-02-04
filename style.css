@@ -1,6 +1,17 @@
 logo{
     float:right;
 }
+#gif{
+    width: 200px;
+    height:200px;
+    position: relative;
+    left: 397px;
+
+}
+#img{
+    width: 50px;
+    height:50px;
+}
 p{
     font-size: 50px;
 }
@@ -70,6 +81,9 @@ p{
   .slider.round {
     border-radius: 34px;
   }
+  /* lable{
+      float:right;
+  } */
   
   .slider.round:before {
     border-radius: 50%;
