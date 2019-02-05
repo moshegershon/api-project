@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <script src='node_modules/jquery/dist/jquery.js'></script>
     <script src='node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
 
 </head>
 
@@ -17,16 +18,19 @@
     <p>cryptonite
     </p>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">home</a>
-        <a class="navbar-brand" href="index2.html">graphs</a>
-        <a class="navbar-brand" href="#">Navbar</a>
-        <input type="text" id="searchinput" placeholder="Insert Coin" class="form-control mr-sm-2">
-        <button class="btn btn-outline-primary my-2 my-sm-0 mr-1" type="submit" id="search">Search</button>
-        <img class="float-right" src="logo.png" width="110">
+        <a class="navbar-brand" onclick="home()">home</button>
+            <a class="navbar-brand" onclick="graph()">graphs</a>
+            <a class="navbar-brand" onclick="about()">About</a>
+            <input type="text" id="searchinput" placeholder="Insert Coin" class="form-control mr-sm-2">
+            <button class="btn btn-outline-primary my-2 my-sm-0 mr-1" type="submit" id="search">Search</button>
+            <img class="float-right" src="logo.png" width="110">
 
 
     </nav>
-    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <div id="aboutdiv">
+
+    </div>
+    <div id="chartContainer"></div>
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -34,12 +38,14 @@
             </div>
         </div>
     </div>
-    <button id="check-btn">check list</button>
+    <button id="check-btn" class="btn btn-primary">check my cart</button>
 
     <div class="container">
         <div id="All" class="row"></div>
     </div>
-    <script>var firsttemplate = `  
+    <script>
+        $('#chartContainer').hide();
+        const firsttemplate = `  
             <div class="col-md-4 mb-2" >
                 <div class="card" style="width: 13.5rem;">
                         <label class="switch float-right">
@@ -62,6 +68,7 @@
         <div>{{id}}</div>`;
         var arryofcoins = [];
         var res = [];
+        var coinsArray = [];
         $.ajax({
             url: 'bigdata.json',
             method: 'GET'
@@ -121,9 +128,6 @@
 
         }
 
-
-
-
         console.log(arryofcoins);
         // $(document).ready(function () {
         //     $('#btn').click(function () {
@@ -151,47 +155,96 @@
             for (let i = 0; i < res.length; i++) {
                 if ($('#' + res[i].id).is(':checked')) {
                     arryofcoins.push(res[i].symbol.toUpperCase());
-
+                    coinsArray.push(res[i].symbol.toUpperCase());
                 }
             }
             if (arryofcoins.length > 5) {
-                alert('sorry but you can chose only 5 coins');
+                alert('Sorry but you can chose only 5 coins');
+                alert('Your cart is empty now')
                 arryofcoins = [];
             }
             console.log(arryofcoins);
         }
-        // <!-- 
-        //      function move() {
-        //   var elem = document.getElementById("myBar"); 
-        //   var width = 10; 
-        //   var id = setInterval(frame, 10);
-        //   function frame() {
-        //     if (width >= 100) {
-        //       clearInterval(id);
-        //     } else {
-        //       width++; 
-        //       elem.style.width = width + '%'; 
-        //       elem.innerHTML = width * 1 + '%';
-        //     }
-        //   }
-        // } -->
-        window.onload = function () {
 
-            var dataPoints1 = [];
-            var dataPoints2 = [];
-            var dataPoints3 = [];
-            var dataPoints4 = [];
-            var dataPoints5 = [];
+        //  var coinsArray = [
+        //     'BTC',
+        //     'ETH',
+        //     'LTC',
+        //     'TRX',
+        //     'AUR'
+        // ];
+        var dArray = [];
+        var d = new Date();
+        const DATA_INTERVAL = 2 * 1000;
+        buildGraph(dArray);
 
+        function makegraph() {
+            $('#gif').show();
+            coinsArray = arryofcoins;
+            for (let i = 0; i < coinsArray.length; i++) {
+                dArray.push({
+                    type: "spline",
+                    name: coinsArray[i],
+                    showInLegend: true,
+                    xValueFormatString: "dd/MM/yyyy hh:mm:ss",
+                    yValueFormatString: "#,##0 Units",
+                    dataPoints: []
+                });
+            }
+            $('#gif').hide();
+        }
+
+        setInterval(() => {
+            d.setTime(d.getTime() + DATA_INTERVAL);
+            coinPrice(coinsArray, d.getTime());
+        }, DATA_INTERVAL)
+
+        function coinPrice(coinSymbolsArray, datetime) {
+            coinSymbolsArray.map(c => c.toUpperCase());
+
+            $.ajax({
+                url: 'https://min-api.cryptocompare.com/data/pricemulti?fsyms=' + coinSymbolsArray.join(',') + '&tsyms=USD',
+                method: 'GET'
+            }).done(function (s) {
+                if (typeof s === 'string') {
+                    s = JSON.parse(s);
+                }
+                for (let prop in s) {
+                    const temp = dArray.find(c => c.name === prop);
+                    temp.dataPoints.push({
+                        x: datetime,
+                        y: s[prop].USD
+                    });
+                }
+
+                renderGraph();
+            });
+        }
+
+        function renderGraph() {
+            $("#chartContainer").CanvasJSChart().render();
+        }
+
+
+        function buildGraph(data) {
             var options = {
+                exportEnabled: true,
+                animationEnabled: true,
                 title: {
-                    text: "Coins Graph"
+                    text: "CRYPTO every 2 sec"
                 },
+                subtitles: [{
+                    text: "Click Legend to Hide or Unhide Data Series"
+                }],
                 axisX: {
-                    title: "chart updates every 2 secs"
+                    title: "Date time"
                 },
                 axisY: {
-                    suffix: "Usd",
+                    title: "Profit in USD",
+                    titleFontColor: "#4F81BC",
+                    lineColor: "#4F81BC",
+                    labelFontColor: "#4F81BC",
+                    tickColor: "#4F81BC",
                     includeZero: false
                 },
                 toolTip: {
@@ -199,143 +252,39 @@
                 },
                 legend: {
                     cursor: "pointer",
-                    verticalAlign: "top",
-                    fontSize: 22,
-                    fontColor: "dimGrey",
                     itemclick: toggleDataSeries
                 },
-                data: [{
-                    type: "line",
-                    xValueType: "dateTime",
-                    yValueFormatString: "###.00Wh",
-                    xValueFormatString: "hh:mm:ss TT",
-                    showInLegend: true,
-                    name: "Turbine 1",
-                    dataPoints: dataPoints1
-                },
-                {
-                    type: "line",
-                    xValueType: "dateTime",
-                    yValueFormatString: "###.00Wh",
-                    showInLegend: true,
-                    name: "Turbine 2",
-                    dataPoints: dataPoints2
-                }, {
-                    type: "line",
-                    xValueType: "dateTime",
-                    yValueFormatString: "###.00Wh",
-                    showInLegend: true,
-                    name: "Turbine 3",
-                    dataPoints: dataPoints3
-                }, {
-                    type: "line",
-                    xValueType: "dateTime",
-                    yValueFormatString: "###.00Wh",
-                    showInLegend: true,
-                    name: "Turbine 4",
-                    dataPoints: dataPoints4
-                }, {
-                    type: "line",
-                    xValueType: "dateTime",
-                    yValueFormatString: "###.00Wh",
-                    showInLegend: true,
-                    name: "Turbine 5",
-                    dataPoints: dataPoints5
-                }]
+                data: data
             };
-            var chart = $("#chartContainer").CanvasJSChart(options);
+            $("#chartContainer").CanvasJSChart(options);
 
             function toggleDataSeries(e) {
                 if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
                     e.dataSeries.visible = false;
-                }
-                else {
+                } else {
                     e.dataSeries.visible = true;
                 }
                 e.chart.render();
             }
 
-            var updateInterval = 2000;
-            // initial value
-            var yValue1 = 800;
-            var yValue2 = 810;
-            var yValue3 = 790;
-            var yValue4 = 780;
-            var yValue5 = 820;
-
-            var time = new Date();
-
-
-            function updateChart(count) {
-                count = count || 1;
-                var deltaY1, deltaY2, deltaY3, deltaY4, deltaY5;
-                for (let i = 0; i < count; i++) {
-                    time.setTime(time.getTime() + updateInterval);
-                    deltaY1 = -1 + Math.random() * (1 + 1);
-                    deltaY2 = -1 + Math.random() * (1 + 1);
-                    deltaY3 = -1 + Math.random() * (1 + 1);
-                    deltaY4 = -1 + Math.random() * (1 + 1);
-                    deltaY5 = -1 + Math.random() * (1 + 1);
-
-                    function graph() {
-                        $.ajax({
-                            url: 'https://min-api.cryptocompare.com/data/pricemulti?fsyms=&tsyms=USD' + newid,
-                            method: 'GET'
-                        }).done(function (s) {
-                            if (typeof s === 'string')
-                                s = JSON.parse(s);
-
-                            yValue1 = Math.round((yValue1 + deltaY1) * 100) / 100;
-                            // pushing the new values
-                            dataPoints1.push({
-                                x: time.getTime(),
-                                y: yValue1
-                            });
-
-
-                        });
-                    }
-                    // adding random value and rounding it to two digits. 
-                    yValue2 = Math.round((yValue2 + deltaY2) * 100) / 100;
-                    yValue3 = Math.round((yValue3 + deltaY3) * 100) / 100;
-                    yValue4 = Math.round((yValue4 + deltaY4) * 100) / 100;
-                    yValue5 = Math.round((yValue5 + deltaY5) * 100) / 100;
-
-                    dataPoints2.push({
-                        x: time.getTime(),
-                        y: yValue2
-                    });
-                    dataPoints3.push({
-                        x: time.getTime(),
-                        y: yValue3
-                    });
-                    dataPoints4.push({
-                        x: time.getTime(),
-                        y: yValue4
-                    });
-                    dataPoints5.push({
-                        x: time.getTime(),
-                        y: yValue5
-                    });
-                }
-
-                // updating legend text with  updated with y Value 
-                options.data[0].legendText = arryofcoins[0] + ": " + yValue1 + "Wh";
-                options.data[1].legendText = arryofcoins[1] + ": " + yValue2 + "Wh";
-                options.data[2].legendText = arryofcoins[2] + ": " + yValue3 + "Wh";
-                options.data[3].legendText = arryofcoins[3] + ": " + yValue4 + "Wh";
-                options.data[4].legendText = arryofcoins[4] + ": " + yValue5 + "Wh";
-                $("#chartContainer").CanvasJSChart().render();
-            }
-            // generates first set of dataPoints 
-            updateChart(100);
-            setInterval(function () { updateChart() }, updateInterval);
-
         }
-    </script>
+        function graph() {
+            makegraph();
+            $('#All').hide();
+            $('#chartContainer').show();
+        }
 
-    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
-    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+        function home() {
+            $('#chartContainer').hide();
+            $('#All').show();
+        }
+        function about(){
+            $('#chartContainer').hide();
+            $('#All').hide();
+            $('#aboutdiv').show();
+        }
+
+    </script>
 
 </body>
 

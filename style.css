@@ -88,3 +88,10 @@ p{
   .slider.round:before {
     border-radius: 50%;
   }
+  .navbar-brand{
+    cursor:pointer
+  }
+  #chartContainer{
+    height: 370px;
+    width: 100%;
+  }
