@@ -88,7 +88,6 @@
                 const dateNow = new Date();
                 const diff = (dateNow.getTime() - lastTime.getTime()) / 1000;
                 if (diff > 200) {
-                    alert('from server')
                     h(callback);
                 } else {
                     callback(window.cacheObj.projects);
