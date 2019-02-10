@@ -28,7 +28,13 @@
 
     </nav>
     <div id="aboutdiv">
-
+            <img id ="pic"src="moshe.jpg" >
+        <h1 id="h1">My API project</h1>
+        <h2 id="h2">Hi my name is Moshe Gershon and I present to you my project</h2>
+        <h3 id="h3">this project will give the the option to look at the rates of virtual coins. 
+            allso you have a live graph to show you the movment of the rates for 5 of the 
+            coins that you have chosen form all the coins.
+        </h3>
     </div>
     <div id="chartContainer"></div>
     <div class="container">
@@ -45,6 +51,7 @@
     </div>
     <script>
         $('#chartContainer').hide();
+        $('#aboutdiv').hide();
         const firsttemplate = `  
             <div class="col-md-4 mb-2" >
                 <div class="card" style="width: 13.5rem;">
@@ -66,11 +73,49 @@
         <div>€  {{data-eur}}</div>
         <div>₪ {{data-ils}}</div>
         <div>{{id}}</div>`;
+
+
+
+        window.cacheObj = window.cacheObj || {};
+        setInterval(function () {
+            getProjects(function (d) {
+                console.log(d)
+            })
+        }, 1 * 1000);
+        function getProjects(callback) {
+            const lastTime = window.cacheObj.lastFetch;
+            if (lastTime) {
+                const dateNow = new Date();
+                const diff = (dateNow.getTime() - lastTime.getTime()) / 1000;
+                if (diff > 200) {
+                    alert('from server')
+                    h(callback);
+                } else {
+                    callback(window.cacheObj.projects);
+                    console.log('from cache')
+                }
+            } else {
+                h(callback);
+            }
+        }
+        function h(callback) {
+            getProjectsFromServer(function (pData) {
+                window.cacheObj.projects = pData;
+                window.cacheObj.lastFetch = new Date();
+                callback(pData);
+                console.log('from server')
+            });
+        }
+        function getProjectsFromServer(callback) {
+            $.ajax('https://api.coingecko.com/api/v3/coins').done(function (d) {
+                callback(d);
+            });
+        }
         var arryofcoins = [];
         var res = [];
         var coinsArray = [];
         $.ajax({
-            url: 'bigdata.json',
+            url: 'https://api.coingecko.com/api/v3/coins',
             method: 'GET'
         }).done(function (s) {
             if (typeof s === 'string')
@@ -96,37 +141,39 @@
             }
             $('#All').append(all);
             var res1 = [];
-            $('.collapse').on('show.bs.collapse', function () {
-                $('#gif').show();
-                // move();
-                // console.log("lasdk");
-                var that = this;
-                let newid = (that.id.replace('cl', ''));
-                console.log(newid);
-                $.ajax({
-                    url: 'https://api.coingecko.com/api/v3/coins/' + newid,
-                    method: 'GET'
-                }).done(function (s) {
-                    if (typeof s === 'string')
-                        s = JSON.parse(s);
-                    // res = s;
-                    let t = secondTemplate;
-                    console.log(s.market_data.current_price.usd);
-                    $('#' + that.id + ' .card').empty();
-                    t = t.replace('{{img}}', s.image.small);
-                    t = t.replace('{{data-usd}}', s.market_data.current_price.usd);
-                    t = t.replace('{{data-eur}}', s.market_data.current_price.eur);
-                    t = t.replace('{{data-ils}}', s.market_data.current_price.ils);
-                    t = t.replace('{{id}}', newid);
-                    console.log(that.id)
-                    $('#gif').hide();
+                $('.collapse').on('shown.bs.collapse', function () {
+                    $('#gif').show();
+                    // move();
+                    // console.log("lasdk");
+                    var that = this;
+                    let newid = (that.id.replace('cl', ''));
+                    console.log(newid);
+                    $.ajax({
+                        url: 'https://api.coingecko.com/api/v3/coins/' + newid,
+                        method: 'GET'
+                    }).done(function (s) {
+                        if (typeof s === 'string')
+                            s = JSON.parse(s);
+                        // res = s;
+                        let t = secondTemplate;
+                        console.log(s.market_data.current_price.usd);
+                        $('#' + that.id + ' .card').empty();
+                        t = t.replace('{{img}}', s.image.small);
+                        t = t.replace('{{data-usd}}', s.market_data.current_price.usd);
+                        t = t.replace('{{data-eur}}', s.market_data.current_price.eur);
+                        t = t.replace('{{data-ils}}', s.market_data.current_price.ils);
+                        t = t.replace('{{id}}', newid);
+                        console.log(that.id)
+                        $('#gif').hide();
+                        $('#' + that.id + ' .card').append(t);
+                    });
+                    // alert('from api');
+                    // console.log(cache);
+                    
+                });                    
+            }
+        
 
-                    $('#' + that.id + ' .card').append(t);
-                });
-                // $('#myProgress').empty()
-            });
-
-        }
 
         console.log(arryofcoins);
         // $(document).ready(function () {
@@ -186,10 +233,11 @@
                     type: "spline",
                     name: coinsArray[i],
                     showInLegend: true,
-                    xValueFormatString: "dd/MM/yyyy hh:mm:ss",
-                    yValueFormatString: "#,##0 Units",
+                    xValueFormatString: d, 
+                    yValueFormatString: "#,##0 $",
                     dataPoints: []
                 });
+                // "dd/MM/yyyy hh:mm:ss"
             }
             $('#gif').hide();
         }
@@ -209,6 +257,7 @@
                 if (typeof s === 'string') {
                     s = JSON.parse(s);
                 }
+                if (dArray.dataPoints !=[]){
                 for (let prop in s) {
                     const temp = dArray.find(c => c.name === prop);
                     temp.dataPoints.push({
@@ -216,6 +265,7 @@
                         y: s[prop].USD
                     });
                 }
+            }
 
                 renderGraph();
             });
@@ -272,13 +322,15 @@
             makegraph();
             $('#All').hide();
             $('#chartContainer').show();
+            $('#aboutdiv').hide();
         }
 
         function home() {
             $('#chartContainer').hide();
             $('#All').show();
+            $('#aboutdiv').hide();
         }
-        function about(){
+        function about() {
             $('#chartContainer').hide();
             $('#All').hide();
             $('#aboutdiv').show();

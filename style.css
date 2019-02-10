@@ -95,3 +95,14 @@ p{
     height: 370px;
     width: 100%;
   }
+#pic{
+float: right;
+width: 250px;
+height: 250px;
+}
+#h2{
+    color: #007bff
+}
+#h3{
+    color: #ccc;
+}
